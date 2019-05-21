@@ -1,0 +1,86 @@
+@value variables: "../../styles/variables.css";
+@value _off_white, _body_text_color, _pink, _med_gray, _menuwidth from variables;
+
+.Hamburgerbutton {
+    font: inherit;
+    display: inline-block;
+    overflow: visible;
+    margin: 0;
+    padding: 15px;
+    cursor: pointer;
+    transition-timing-function: linear;
+    transition-duration: .15s;
+    transition-property: opacity,filter;
+    text-transform: none;
+    color: inherit;
+    border: 0;
+    background-color: transparent;
+    float: right;
+    margin-right: 20px;                          
+}
+
+.Hamburgerbox {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+}
+
+.Hamburgerinner, .Hamburgerinner::after, .Hamburgerinner::before {
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    transition-timing-function: ease;
+    transition-duration: .15s;
+    transition-property: transform;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.Hamburgerinner {
+    top: 50%;
+    display: block;
+    margin-top: -2px;
+}
+.Hamburgerinner::after, .Hamburgerinner::before {
+    display: block;
+    content: "";
+}
+.Hamburgerinner::before {
+    top: -10px;
+}
+.Hamburgerinner::after {
+    bottom: -10px;
+}
+
+.Squeeze .Hamburgerinner:before {
+    transition: top 75ms ease .12s,opacity 75ms ease;
+}
+.Squeeze .Hamburgerinner {
+    transition-timing-function: cubic-bezier(.55,.055,.675,.19);
+    transition-duration: 75ms;
+}
+.Squeeze .Hamburgerinner::after {
+    transition: bottom 75ms ease .12s,transform 75ms cubic-bezier(.55,.055,.675,.19);
+}
+
+.is-active .Hamburgerinner, .Active .Hamburgerinner:after, .Active .Hamburgerinner:before {
+    background-color: #fff;
+}
+
+.Squeeze.Active .Hamburgerinner {
+    transition-delay: .12s;
+    transition-timing-function: cubic-bezier(.215,.61,.355,1);
+    transform: rotate(45deg);
+}
+
+.Squeeze.Active .Hamburgerinner:before {
+    top: 0;
+    transition: top 75ms ease,opacity 75ms ease .12s;
+    opacity: 0;
+}
+
+.Squeeze.Active .Hamburgerinner:after {
+    bottom: 0;
+    transition: bottom 75ms ease,transform 75ms cubic-bezier(.215,.61,.355,1) .12s;
+    transform: rotate(-90deg);
+}

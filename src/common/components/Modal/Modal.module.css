@@ -1,0 +1,26 @@
+@value variables: "../../styles/variables.css";
+@value _off_white, _body_text_color, _pink, _med_gray, _menuwidth from variables;
+
+.Modal {
+    position: fixed;
+    z-index: 500;
+    width: 80vw;
+    max-width: 400px;
+    background: _pink;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+.Modalbuttons {
+    text-align: center;
+}
+
+.Modalbuttonsinner {
+    margin: 1rem;
+    display: inline-block;
+}

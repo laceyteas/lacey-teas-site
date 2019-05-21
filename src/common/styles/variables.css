@@ -1,0 +1,22 @@
+/* Colors */
+
+@value _off_white: #f4f4f4;
+@value _med_gray: #555555;
+@value _pink: #dc91a6;
+@value _deep_pink: rgb(109, 36, 76);
+
+@value _off_white: #f4f4f4;
+@value _body_text_color: #555555;
+
+/* Font Sizes */
+
+@value _h1: 3rem;
+@value _h2: 2.25rem; 
+@value _h3: 1.5rem; 
+@value _h4: 1.25rem; 
+@value _h5: 1rem; 
+@value _h6: .875rem; 
+
+/* Media query breaks */
+
+@value _menuwidth: 760px;

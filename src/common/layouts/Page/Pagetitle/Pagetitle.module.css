@@ -1,0 +1,16 @@
+@value variables: "../../../styles/variables.css";
+@value _h1 from variables;
+
+.Pagetitle {
+    /* "fw1 tc f2 display absolute dn dib-ns near-white" */
+    color: #fff;
+    font-size: _h1;
+    font-family: 'Petit Formal Script', serif;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    font-weight: 100;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

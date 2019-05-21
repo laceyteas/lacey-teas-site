@@ -1,0 +1,8 @@
+@value variables: "../../../styles/variables.css";
+@value _med_gray from variables;
+
+.Pagebanner {
+    position: relative;
+    min-height: 200px;
+    background: _med_gray;
+}

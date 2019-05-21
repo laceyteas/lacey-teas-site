@@ -1,0 +1,10 @@
+@value colors: "../../styles/variables.css";
+@value _off_white, _body_text_color from colors;
+
+.Body {
+    background-color: _off_white;
+    color: _body_text_color;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+    font-size: 1.25rem;
+}

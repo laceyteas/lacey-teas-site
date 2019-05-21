@@ -1,0 +1,37 @@
+@value variables: "../../styles/variables.css";
+@value _off_white, _body_text_color, _pink, _med_gray, _menuwidth from variables;
+
+.Footer {
+    background: _med_gray;
+    padding: 2rem;
+    color: _off_white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer a {
+    color: _pink;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all .5s;
+}
+.Footer a:hover {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.Copyright {
+}
+
+.Footernav ul, .Footernav li, .Socialnav ul, .Socialnav li {
+    margin: 0 0 0 2rem;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.Socialnav span {
+    position: relative;
+    bottom: .2rem;
+}
