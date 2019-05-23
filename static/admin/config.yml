@@ -35,5 +35,5 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: "Meta Description", name: "metaDescription", widget: "string"}
       - {label: "Featured Image", name: "postImage", widget: "image"}
-      - {label: "Slug", name: "slug", widget: "string" default: "/{{fields.name}}"}
+      - {label: "Slug", name: "slug", widget: "string", default: "/{{fields.name}}"}
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
