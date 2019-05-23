@@ -1,8 +1,6 @@
 import React from "react";
 import Sidebar from "./sidebar.js";
 import Suggested from './suggested.js';
-import "tachyons";
-import "../../common/styles/custom.tachyons.css";
 import "../styles/grid.css";
 
 

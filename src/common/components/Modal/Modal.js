@@ -4,6 +4,7 @@ import Backdrop from '../Backdrop/Backdrop';
 import Button from '../Button/Button'
 
 const Modal = (props) => {
+
     const [modalToggle, setModalToggle] = useState(true);
 
     const toggleModal = () => setModalToggle( modalToggle => !modalToggle );

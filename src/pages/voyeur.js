@@ -1,32 +1,52 @@
 import React from 'react';
 import Layout from '../common/layouts/Layout/Layout';
-import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
 import Seo from '../common/seo';
 import Page from '../common/layouts/Page/Page';
-import Galleryitem from '../common/components/Galleryitem/Galleryitem'
-import { styles } from 'ansi-colors';
+import Gallery from '../common/components/Gallery/Gallery';
+import useGalleryFolderImages from '../hooks/useGalleryFolderImages';
+import useInstaNode from '../hooks/useInstaNode';
 
-export default ({props, data}) => (
-  <Layout>
-    <Seo
-      title={data.markdownRemark.frontmatter.title}
-      description={data.markdownRemark.frontmatter.metaDescription} />
-    <Page 
-      title={data.markdownRemark.frontmatter.title} 
-      img={data.markdownRemark.frontmatter.postImage.childImageSharp.fluid}
-      htmlcontent={data.markdownRemark.html}
-    >
-      <div className={styles.Gallery}>
-        {data.allFile.edges.map(({ node }, index) => (
-          <Galleryitem>
-           <Img key={index} fluid={node.childImageSharp.fluid} />
-          </Galleryitem>
-        ))}
-      </div>
-    </Page>
-  </Layout>
-)
+export default ({props, data}) => {
+
+  const instaImages = useInstaNode().map( ({node}) => {
+    return {
+      id: node.id,
+      fluid: node.localFile.childImageSharp.fluid
+    }
+  })
+
+  const folderImages = useGalleryFolderImages().map( ({node}) => {
+    return {
+      id: node.id,
+      fluid: node.childImageSharp.fluid,
+      fixed: node.childImageSharp.fixed
+    }
+  })
+
+
+  return (
+    <Layout>
+      <Seo
+        title={data.markdownRemark.frontmatter.title}
+        description={data.markdownRemark.frontmatter.metaDescription} />
+      <Page 
+        title={data.markdownRemark.frontmatter.title} 
+        img={data.markdownRemark.frontmatter.postImage.childImageSharp.fluid}
+        htmlcontent={data.markdownRemark.html}
+      >
+        <h2>
+        Instagram
+        </h2>
+
+        <Gallery images={instaImages}/>
+
+        <h2>Gallery Folder Images</h2>
+        <Gallery images={folderImages}/>
+      </Page>
+    </Layout>
+  )
+}
 
 export const dataQuery = graphql`
   query {
@@ -43,23 +63,6 @@ export const dataQuery = graphql`
           } 
         }
       }
-    }
-    allFile(filter:{
-      extension: { regex: "/(jpg)|(png)|(tif)|(tiff)|(webp)|(jpeg)/" }
-      relativeDirectory:{eq:"gallery/img"}
-    }) {
-        edges {
-          node {
-            childImageSharp {
-              fluid(maxWidth: 1920, quality: 80) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
-              resize(width: 600, quality: 80) {
-                src
-              }
-            }
-          }
-        }
     }
   }
 `

@@ -2,7 +2,6 @@ import React from 'react';
 import EmailForm from './emailForm.js';
 import { StaticQuery, graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
-import 'tachyons';
 
 
 export default props => (
