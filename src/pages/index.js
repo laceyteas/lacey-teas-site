@@ -2,7 +2,6 @@ import React from "react"
 import Layout from '../common/layouts/Layout/Layout';
 import { graphql } from 'gatsby';
 import Seo from '../common/seo';
-import Gallery from '../common/components/Gallery/Gallery';
 import Howtomeet from '../common/components/Howtomeet/Howtomeet'
 import Page from "../common/layouts/Page/Page";
 
@@ -18,7 +17,6 @@ export default ({ data }) => {
           img={data.markdownRemark.frontmatter.postImage.childImageSharp.fluid}
           htmlcontent={data.markdownRemark.html}
         />
-      <Gallery />
       <Howtomeet />
     </Layout>
   )

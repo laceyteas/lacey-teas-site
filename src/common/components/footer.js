@@ -7,7 +7,6 @@ import {
   FaYoutube,
   FaGithub
 } from 'react-icons/fa';
-import 'tachyons';
 
 
 export default () => (

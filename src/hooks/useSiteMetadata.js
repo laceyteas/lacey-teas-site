@@ -1,4 +1,3 @@
-
 import { useStaticQuery, graphql } from 'gatsby';
 
 const useSiteMetadata = () => {

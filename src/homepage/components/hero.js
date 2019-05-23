@@ -1,8 +1,6 @@
 import React from "react"
 import Img from 'gatsby-image';
 import { Link } from 'gatsby';
-import '../../common/styles/custom.tachyons.css'
-import 'tachyons';
 
 export default (props) => (
   <React.Fragment>

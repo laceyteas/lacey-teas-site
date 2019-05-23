@@ -20,6 +20,7 @@
     "gatsby-remark-copy-linked-files": "^2.0.12",
     "gatsby-remark-images": "^3.0.11",
     "gatsby-source-filesystem": "^2.0.36",
+    "gatsby-source-instagram": "^0.5.0",
     "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "^2.1.19",
     "hygen": "^4.0.2",
@@ -29,7 +30,6 @@
     "react-helmet": "^5.2.1",
     "react-icons": "^3.7.0",
     "react-session-hook": "^2.0.1",
-    "sharp": "^0.22.1",
-    "tachyons": "^4.11.1"
+    "sharp": "^0.22.1"
   }
 }

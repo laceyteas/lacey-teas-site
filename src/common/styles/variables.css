@@ -17,6 +17,11 @@
 @value _h5: 1rem; 
 @value _h6: .875rem; 
 
+/* Layout variables */
+
+@value _innerwidth: 760px;
+
 /* Media query breaks */
 
 @value _menuwidth: 760px;
+@value _widescreen: 1200px;

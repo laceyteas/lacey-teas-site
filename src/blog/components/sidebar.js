@@ -5,7 +5,6 @@ import {
 } from 'react-icons/fa';
 import {FiMail} from 'react-icons/fi'
 import { StaticQuery, graphql } from 'gatsby';
-import 'tachyons';
 
 
 export default (props) => {

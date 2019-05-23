@@ -1,5 +1,17 @@
+@value variables: "../../styles/variables.css";
+@value _off_white, _body_text_color, _pink, _med_gray, _innerwidth from variables;
+
 .Inner {
     margin: 2rem auto;
     width: 80%;
-    max-width: 760px;
+    max-width: _innerwidth;
+}
+
+.Fullwidth {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }

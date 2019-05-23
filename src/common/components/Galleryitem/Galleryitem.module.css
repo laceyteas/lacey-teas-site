@@ -1,3 +1,44 @@
-.Galleryitem {
+@value variables: "../../styles/variables.css";
+@value _off_white, _body_text_color, _menuwidth, _widescreen from variables;
 
+.Galleryitem {
+    flex: 0 0 50%;
+    transition: all .5s;
+    cursor: pointer;
+    position: relative;
 }
+
+.Galleryitem::before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 100%; /* set for 1:1 ratio */
+  }
+
+.Inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+.Galleryitem:hover{
+    transform: scale(1.1);
+    position: relative;
+    z-index: 50;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5)
+}
+
+@media (min-width: _menuwidth) {
+    .Galleryitem {
+        flex: 0 0 33.3333%;
+    }
+}
+
+@media (min-width: _widescreen) {
+    .Galleryitem {
+        flex: 0 0 25%;
+    }
+}
+
