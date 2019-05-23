@@ -1,0 +1,17 @@
+@value variables: "../../../styles/variables.css";
+@value _off_white, _body_text_color, _pink, _deep_pink, _light_pink ,_med_gray, _menuwidth from variables;
+
+.Fieldset {
+    border: 1px solid _pink;
+    border-radius: 4px;
+    margin: 0 0 1rem;
+    background: _light_pink;
+    padding: .3rem 1rem 1rem;
+}
+.Legend {
+    font-size: 1.25rem;
+    background: _pink;
+    border-radius: 4px;
+    padding: 3px 9px 4px;
+    color: _off_white;
+}

@@ -2,7 +2,6 @@ import React, {useState, Fragment} from 'react';
 import styles from './Galleryitem.module.css';
 import Imagepopup from '../Imagepopup/Imagepopup';
 import Img from 'gatsby-image';
-import { auto } from 'eol';
 
 const Image = ({image}) => {
 

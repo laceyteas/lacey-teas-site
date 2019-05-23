@@ -3,6 +3,7 @@ import Layout from '../common/layouts/Layout/Layout';
 import { graphql } from 'gatsby';
 import Seo from '../common/seo';
 import Page from '../common/layouts/Page/Page';
+import Reservationform from '../common/components/Reservationform/Reservationform'
 
 export default ({props, data}) => (
   <Layout>
@@ -14,6 +15,7 @@ export default ({props, data}) => (
       img={data.markdownRemark.frontmatter.postImage.childImageSharp.fluid}
       htmlcontent={data.markdownRemark.html}
     />
+    <Reservationform/>
   </Layout>
 )
 
