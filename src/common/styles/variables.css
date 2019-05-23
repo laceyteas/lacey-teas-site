@@ -2,10 +2,11 @@
 
 @value _off_white: #f4f4f4;
 @value _med_gray: #555555;
+@value _light_pink: #f5dee4;
 @value _pink: #dc91a6;
 @value _deep_pink: rgb(109, 36, 76);
+@value _bright_pink: #fd6ebc;
 
-@value _off_white: #f4f4f4;
 @value _body_text_color: #555555;
 
 /* Font Sizes */

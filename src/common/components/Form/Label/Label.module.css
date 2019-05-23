@@ -1,0 +1,13 @@
+@value variables: "../../../styles/variables.css";
+@value _off_white, _body_text_color, _pink, _deep_pink, _light_pink ,_med_gray, _menuwidth from variables;
+
+.Label {
+    display: block;
+    margin: .8rem 0 .2rem;
+    font-size: 1rem;
+}
+.Required {
+    font-weight: 500;
+    color: _deep_pink;
+    margin-left: .2rem;
+}

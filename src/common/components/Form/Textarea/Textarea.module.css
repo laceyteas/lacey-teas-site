@@ -1,0 +1,12 @@
+@value variables: "../../../styles/variables.css";
+@value _off_white, _body_text_color, _pink, _deep_pink, _light_pink ,_med_gray, _menuwidth from variables;
+
+.Textarea {
+    display: block;
+    width: 100%;
+    height: 4rem;
+    font-size: 1rem;
+    padding: 3px 5px;
+    border-radius: 3px;
+    border: 1px solid _med_gray;
+}
