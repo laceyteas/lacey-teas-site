@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "gatsby": "^2.5.5",
+    "gatsby-cli": "^2.6.2",
     "gatsby-image": "^2.1.0",
     "gatsby-plugin-feed": "^2.2.0",
     "gatsby-plugin-google-analytics": "^2.0.20",
@@ -23,7 +24,6 @@
     "gatsby-source-instagram": "^0.5.0",
     "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "^2.1.19",
-    "hygen": "^4.0.2",
     "jsonwebtoken": "^8.5.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -31,5 +31,9 @@
     "react-icons": "^3.7.0",
     "react-session-hook": "^2.0.1",
     "sharp": "^0.22.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "hygen": "^4.0.2"
   }
 }
