@@ -23,11 +23,8 @@
 .Link {
     text-decoration: none;
     color: #fff;
-    font-weight: 200;
     margin: 0.8rem;
     display: inline-block;
-    font-size: 1.25rem;
-    font-family: 'Kanit', sans-serif;
     border-bottom: 1px solid transparent;
     transition: all .5s;
     padding: .2rem 0;

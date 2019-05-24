@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
+import '../../styles/reset.css';
+import '../../styles/fonts.css';
 import styles from './Layout.module.css';
 import Helmet from 'react-helmet';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../Footer/Footer';
-import '../../styles/reset.css';
-import '../../styles/fonts.css';
 import Agecheck from '../../components/Agecheck/Agecheck';
 
 
