@@ -44,6 +44,12 @@
     color: #fd6ebc;
 }
 
-:global(a:hover), :global(a:active) {
+:global(a:active) {
     color: rgb(109, 36, 76);
+}
+
+@media (hover) {
+    :global(a:hover) {
+        color: rgb(109, 36, 76);
+    }
 }

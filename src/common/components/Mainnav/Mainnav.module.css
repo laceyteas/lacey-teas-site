@@ -30,9 +30,10 @@
     padding: .2rem 0;
     font-size: 1.5rem;
 }
-
-.Link:hover {
-    border-bottom: 1px solid #fff;
+@media (hover) {
+    .Link:hover {
+        border-bottom: 1px solid #fff;
+    }
 }
 
 .Active, .Active:hover {
