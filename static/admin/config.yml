@@ -23,3 +23,13 @@ collections:
       - {label: "Featured Image", name: "postImage", widget: "image", required: false}
       - {label: "Navigation Order", name: "order", widget: "string", default: "0"} #used to order pages in the Nav
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "homepage"
+    label: "Homepage Copy"
+    folder: "content/homepage"
+    create: false # Allow users to create new documents in this collection
+    fields:
+      - {label: Type, name: type, widget: "hidden", default: "copy"} 
+      - {label: Name, name: name, widget: hidden} # also hidden as this is important for the page graphql. Might change if I add hte ability to add new pages
+      - {label: Title, name: title, widget: string}
+      - {label: "Featured Image", name: "postImage", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}

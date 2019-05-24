@@ -23,7 +23,7 @@ export default ({props, data}) => (
 
 export const dataQuery = graphql`
   query {
-    markdownRemark(frontmatter: {name: {eq: "privacypolicy"}}) {
+    markdownRemark(frontmatter: {name: {eq: "privacy-policy"}}) {
       html
       frontmatter {
         title
