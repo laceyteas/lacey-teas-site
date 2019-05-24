@@ -9,8 +9,8 @@ const mainnav = (props) => {
       graphql`
       query {
         allMarkdownRemark(
-          sort: {order: ASC, fields: frontmatter___date},
-          filter: {frontmatter: {type: {eq: "page"}}}) {
+          sort: {order: ASC, fields: frontmatter___order},
+          filter: {frontmatter: {type: {eq: "main-page"}}}) {
           edges {
             node {
               frontmatter {

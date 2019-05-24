@@ -1,7 +1,6 @@
 ---
 
-type: "hiddenpage"
-name: "privacypolicy"
+type: "footer-page"
 title: "Privacy Policy"
 metaDescription: "Privacy policy for Lacey Teas"
 postImage: "../img/panties-closeup.jpg"

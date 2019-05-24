@@ -1,6 +1,6 @@
 backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  name: github
+  repo: laceyteas/lacey-teas-site
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
@@ -10,30 +10,16 @@ media_folder: "static/img" # Media files will be stored in the repo
 public_folder: "/content/img" # The src attribute for uploaded media will begin with
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "content/posts" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Type", name: "type", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Category", name: "category", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
-      - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Featured Image", name: "postImage", widget: "image"}
-      - {label: "Meta Description", name: "metaDescription", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Pages"
     folder: "content/pages"
-    create: true # Allow users to create new documents in this collection
+    create: false # Allow users to create new documents in this collection
     fields:
-      - {label: Type, name: type, widget: "hidden", default: "page"}
-      - {label: Name, name: name, widget: string}
+      - {label: Type, name: type, widget: "hidden"} # The two options right now are main-page and footer-page. I haven't set up dynamic page creation yet but if I do then I might allow pages to be added and make this a select widget
+      - {label: Name, name: name, widget: hidden} # also hidden as this is important for the page graphql. Might change if I add hte ability to add new pages
+      - {label: "Slug", name: "slug", widget: "hidden"} #also hidden as used for the Mainnav componenet to create the nav. Might allow if I do dynamic pages
       - {label: Title, name: title, widget: string}
       - {label: "Meta Description", name: "metaDescription", widget: "string"}
-      - {label: "Featured Image", name: "postImage", widget: "image"}
-      - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
+      - {label: "Featured Image", name: "postImage", widget: "image", required: false}
+      - {label: "Navigation Order", name: "order", widget: "string", default: "0"} #used to order pages in the Nav
       - {label: "Body", name: "body", widget: "markdown"}

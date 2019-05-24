@@ -1,7 +1,7 @@
 ---
 
 type: "copy"
-name: "how_to_meet_summary"
+name: "homepage__meet"
 title: "How to meet me"
 postImage: "../img/chair-lean.jpg"
 

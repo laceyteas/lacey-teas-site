@@ -1,12 +1,12 @@
 ---
 
-type: "page"
-name: "meet"
+type: "main-page"
 title: "How to meet me"
+name: "meet"
 metaDescription: "How to schedule a meeting with Lacey Teas"
 postImage: "../img/panties-closeup.jpg"
 slug: "/meet"
-date: "2019-01-03"
+order: "2"
 
 ---
 

@@ -1,12 +1,12 @@
 ---
 
-type: "page"
-name: "voyeur"
+type: "main-page"
 title: "Voyeur"
+name: "voyeur"
 metaDescription: "Gallery of images"
 postImage: "../img/panties-closeup.jpg"
 slug: "/voyeur"
-date: "2019-01-02"
+order: "1"
 
 ---
 

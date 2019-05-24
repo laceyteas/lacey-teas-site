@@ -31,7 +31,7 @@ export default ({props, data}) => {
         title={data.markdownRemark.frontmatter.title}
         description={data.markdownRemark.frontmatter.metaDescription} />
       <Page 
-        title={data.markdownRemark.frontmatter.title} 
+        title={data.markdownRemark.frontmatter.title}
         img={data.markdownRemark.frontmatter.postImage.childImageSharp.fluid}
         htmlcontent={data.markdownRemark.html}
       >

@@ -1,7 +1,7 @@
 ---
 
 type: "copy"
-name: "gallery_summary"
+name: "homepage__gallery"
 title: "Voyeur"
 postImage: "../img/chair-lean.jpg"
 
