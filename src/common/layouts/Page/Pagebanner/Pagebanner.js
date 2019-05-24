@@ -5,7 +5,7 @@ import Pagetitle from '../Pagetitle/Pagetitle'
 
 const Pagebanner = (props) => (
     <div className={styles.Pagebanner} >
-        { props.img ? <Img fluid={props.img}/> : null }
+        { props.img ? <Img fluid={props.img}/> : <div className={styles.NoBannerImage}></div> }
         <Pagetitle title={props.title}/>
     </div>
 );

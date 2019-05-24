@@ -13,10 +13,23 @@ const Image = ({image}) => {
 }
 
 const Galleryitem = ({images, index}) => {
-
+    
+    const galleryLength = images.length - 1;
+    const [currentIndex, setIndex] = useState(index);
+    const [currentImage, setImage] = useState(images[index]);
     const [clicked, setClickedToggle] = useState(false);
 
-    const click = () => setClickedToggle( clicked => !clicked );
+    const click = () => {
+        setClickedToggle( clicked => !clicked );
+        setIndex(index); // Reset to this item's index and image on click
+        setImage(images[index]);
+    }
+
+    const nextImage = () => {
+        const nextIndex = (currentIndex === galleryLength) ? 0 : currentIndex + 1;
+        setIndex(nextIndex);
+        setImage(images[nextIndex]);  
+    }
 
     return (
         <Fragment>
@@ -25,7 +38,7 @@ const Galleryitem = ({images, index}) => {
                     <Image image={images[index]}/>
                 </div>
             </div>
-            <Imagepopup show={clicked} images={images} index={index} close={click} />
+            <Imagepopup show={clicked} image={currentImage} next={nextImage} close={click} />
 
         </Fragment>
 

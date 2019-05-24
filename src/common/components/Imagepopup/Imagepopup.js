@@ -1,40 +1,34 @@
-import React, {Fragment, useState, useEffect} from 'react';
+import React, {Fragment} from 'react';
 import styles from './Imagepopup.module.css';
 import Backdrop from '../Backdrop/Backdrop';
 import Img from 'gatsby-image';
 
-const Imagepopup = ({show, images, index, close}) => {
+const Imagepopup = ({show, image, next, close}) => {
 
-    const galleryLength = images.length - 1;
+    let screen = {width: window.innerWidth, height: window.innerHeight}
+    screen.aspectRatio = screen.width / screen.height // If > 1 then wider than it is tall; else < 1 taller than it is wide
+    let popup = {width: 80, height: 80}
+    popup.aspectRatio = image.fluid.aspectRatio
 
-    const [currentIndex, setIndex] = useState(index);
-
-    const [currentImage, setImage] = useState(images[index]);
-
-    const nextImage = () => {
-        const nextIndex = (currentIndex === galleryLength) ? 0 : currentIndex + 1;
-        setIndex(nextIndex);
-        setImage(images[nextIndex]);  
+    if (popup.aspectRatio >= screen.aspectRatio) {
+        popup.width = 85
+        popup.height = screen.aspectRatio / popup.aspectRatio * .85 * 100
+    } else {
+        popup.height = 85
+        popup.width = popup.aspectRatio / screen.aspectRatio * .85 * 100
     }
-
-    let aspectRatio = currentImage.fluid.aspectRatio
-    let width = (90 * aspectRatio > 90) ? 90 : 90 * aspectRatio;
-    let height = (width === 90) ? 90 / aspectRatio : 90
-
-    useEffect( () => {
-        
-    }, [currentImage])
     
     const inlineStyle = {
-        width: `${width}vh`,
-        height: `${height}vh`
+        width: `${popup.width}vw`,
+        height: `${popup.height}vh`,
+        borderRadius: "3px"
     }
 
     if (show) {
         return (
             <Fragment>
-                <div className={styles.Imagepopup} style={inlineStyle} onClick={nextImage}>
-                    <Img fluid={currentImage.fluid} />
+                <div className={styles.Imagepopup} onClick={next}>
+                    <Img fluid={image.fluid} style={inlineStyle} />
                 </div>
                 <Backdrop show={show} close={close} />
             </Fragment>

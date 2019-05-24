@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Pagetitle.module.css';
 
 const pagetitle = (props) => (
-    <div className={styles.Pagetitle} >
+    <div className={styles.PagetitleWrapper} >
         <h1 className={styles.Pagetitle}>{props.title}</h1>
     </div>
 );

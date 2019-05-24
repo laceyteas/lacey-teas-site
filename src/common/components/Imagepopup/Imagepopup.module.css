@@ -10,7 +10,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
-    padding: 1rem;
+    padding: .8rem;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
     animation: bounceIn 1s;
     cursor: pointer;

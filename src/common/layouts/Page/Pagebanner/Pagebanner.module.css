@@ -3,6 +3,9 @@
 
 .Pagebanner {
     position: relative;
-    min-height: 200px;
     background: _med_gray;
+}
+
+.NoBannerImage {
+    height: 180px;
 }
