@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Mainnav.module.css';
 import { Link, useStaticQuery, graphql } from 'gatsby';
 
-const mainnav = (props) => {
+const mainnav = ({includeHome}) => {
 
   const getPageList = () => {
     const { allMarkdownRemark } = useStaticQuery(
@@ -41,6 +41,7 @@ const mainnav = (props) => {
  
     <nav className={styles.Mainnav} >
       <ul className={styles.MainnavList}>
+        {includeHome? <li className={styles.MainnavListItem}><Link to="/" className={styles.Link} activeClassName={styles.Active}>Home</Link></li> : null}
         {pageLinks}
       </ul>  
     </nav>

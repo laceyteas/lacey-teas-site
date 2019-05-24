@@ -7,7 +7,7 @@ const slidermenu = (props) => (
     <Fragment>
         <div className={`${props.showMenu ? styles.Open : styles.Close} ${styles.Slidermenu}`} >
             <div className={styles.Mainnav}>
-                <Mainnav />
+                <Mainnav includeHome />
             </div>
         </div>
         <Backdrop show={props.showMenu} close={props.closeBtn}/>

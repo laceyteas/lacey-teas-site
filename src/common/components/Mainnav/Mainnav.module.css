@@ -20,7 +20,7 @@
     display: block;
 }
 
-.Link {
+.Link, .Link:visited {
     text-decoration: none;
     color: #fff;
     margin: 0.8rem;
@@ -28,6 +28,7 @@
     border-bottom: 1px solid transparent;
     transition: all .5s;
     padding: .2rem 0;
+    font-size: 1.5rem;
 }
 
 .Link:hover {
@@ -35,8 +36,7 @@
 }
 
 .Active, .Active:hover {
-    border-bottom: 1px solid transparent;
-    color: #aaa;
+    border-bottom: 1px solid #fff !important;
 }
 
 
@@ -47,7 +47,12 @@
     }
 
     .Active, .Active:hover {
-        border-bottom: 1px solid transparent;
-        color: _deep_pink;
+        border-bottom: 1px solid transparent !important;
+        color: _deep_pink !important;
     }
+
+    .Link {
+        font-size: 1.25rem;
+    }
+
 }
