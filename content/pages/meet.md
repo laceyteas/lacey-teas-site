@@ -6,7 +6,7 @@ name: "meet"
 metaDescription: "How to schedule a meeting with Lacey Teas"
 postImage: "../img/panties-closeup.jpg"
 slug: "/meet"
-order: "3"
+order: "4"
 
 ---
 

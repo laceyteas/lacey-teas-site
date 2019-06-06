@@ -33,6 +33,7 @@
 @media (hover) {
     .Link:hover {
         border-bottom: 1px solid #fff;
+        color: #fff;
     }
 }
 
