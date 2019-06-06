@@ -52,8 +52,9 @@
         color: _deep_pink !important;
     }
 
-    .Link {
-        font-size: 1.25rem;
+    .Link, .Link:visited {
+        font-size: 1.2rem;
+        margin: 0.9rem 0.7rem;
     }
 
 }

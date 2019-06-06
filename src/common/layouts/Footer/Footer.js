@@ -11,13 +11,13 @@ const footer = (props) => {
     return (
         <div className={styles.Footer} >
             <div className={styles.Copyright}>
-                {title} &copy; {new Date().getFullYear() }
+                {title} &copy;&nbsp;{new Date().getFullYear() }
             </div>
             <div className={styles.Socialnav}>
                 <nav>
                     <ul>
-                        { twitter ? <li><a href={twitter}><FiTwitter /> <span>laceyteas</span></a> </li> : null }
-                        { instagram ? <li><a href={instagram}><FiInstagram/> <span>xolaceyteas</span></a> </li> : null }
+                        { twitter ? <li><a href={twitter}><FiTwitter /><span>laceyteas</span></a> </li> : null }
+                        { instagram ? <li><a href={instagram}><FiInstagram/><span>xolaceyteas</span></a> </li> : null }
                     </ul>
                 </nav>
             </div>

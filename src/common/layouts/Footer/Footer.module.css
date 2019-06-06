@@ -3,11 +3,15 @@
 
 .Footer {
     background: _med_gray;
-    padding: 2rem;
     color: _off_white;
-    font-size: 1rem;
+    font-size: .9rem;
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
+}
+
+.Footer > div {
+    padding: .5rem;
 }
 
 .Footer a {
@@ -15,6 +19,8 @@
     text-decoration: none;
     border-bottom: 1px solid transparent;
     transition: all .5s;
+    display: inline-block;
+    margin-bottom: .3rem;
 }
 .Footer a:hover {
     border-bottom: 1px solid #fff;
@@ -24,14 +30,45 @@
 .Copyright {
 }
 
-.Footernav ul, .Footernav li, .Socialnav ul, .Socialnav li {
-    margin: 0 0 0 2rem;
+.Footernav ul, .Socialnav ul {
+    margin: 0;
     padding: 0;
     list-style: none;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
+
+.Footernav li, .Socialnav li {
+    padding: 0;
+}
+
+.Socialnav {
+    width: 45%;
+} 
 
 .Socialnav span {
     position: relative;
     bottom: .2rem;
+    margin-left: .5rem;
+}
+
+@media (min-width: _menuwidth) {
+
+    .Footer {
+        font-size: 1rem;
+        padding: 1rem .5rem;
+    }
+
+    .Footernav ul, .Socialnav ul {
+        flex-direction: row;
+    }
+
+    .Footernav li, .Socialnav li {
+        padding: 0 0.5rem;
+    }
+
+    .Socialnav {}
+   
 }
