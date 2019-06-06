@@ -39,7 +39,7 @@ For the Pervert
 * Our Gourmet Life, an erotic dinner party
 * Date Night at the SF Citadel 
 
-See My Victorian Side:
+See My Victorian Side
 
 * Opera
 * High tea
@@ -48,9 +48,7 @@ See My Victorian Side:
 * Matcha ceremony lessons
 * Ikebana lessons
 
-
-
-Surreal:
+Surreal
 
 * Mirror maze
 * One Dome 
