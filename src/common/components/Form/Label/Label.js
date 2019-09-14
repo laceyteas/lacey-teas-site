@@ -6,7 +6,7 @@ const Required = () => (
 )
 
 const Label = ({forRef, label, required}) => (
-    <label className={styles.Label} for={forRef}>{label}{required ? <Required/> : null}</label>
+    <label className={styles.Label} htmlFor={forRef}>{label}{required ? <Required/> : null}</label>
 );
 
 export default Label;
