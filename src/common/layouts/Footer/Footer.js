@@ -4,7 +4,7 @@ import useSiteMetadata from '../../../hooks/useSiteMetadata'
 import { Link } from 'gatsby';
 import { FiInstagram, FiTwitter } from 'react-icons/fi';
 
-const footer = (props) => {
+const Footer = (props) => {
 
     const { title, twitter, instagram } = useSiteMetadata();
 
@@ -33,4 +33,4 @@ const footer = (props) => {
 
 }  
 
-export default footer;
+export default Footer;

@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import useSiteMetadata from '../../../hooks/useSiteMetadata';
 import logoImg from './logo.png';
 
-const logo = () => {
+const Logo = () => {
     const { title } = useSiteMetadata()
     
     return (
@@ -14,4 +14,4 @@ const logo = () => {
     )
 };
 
-export default logo;
+export default Logo;

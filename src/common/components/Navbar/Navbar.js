@@ -5,7 +5,7 @@ import Mainnav from '../Mainnav/Mainnav';
 import Slidermenu from '../Slidermenu/Slidermenu';
 import Hamburgermenu from '../Hamburgermenu/Hamburgermenu'
 
-const navbar = () => {
+const Navbar = () => {
 
     const [menuToggle, setMenuToggle] = useState(false);
 
@@ -29,4 +29,4 @@ const navbar = () => {
     );
 }
 
-export default navbar;
+export default Navbar;

@@ -2,11 +2,10 @@ import React from 'react';
 import styles from './Mainnav.module.css';
 import { Link, useStaticQuery, graphql } from 'gatsby';
 
-const mainnav = ({includeHome}) => {
+const Mainnav = ({includeHome}) => {
 
-  const getPageList = () => {
-    const { allMarkdownRemark } = useStaticQuery(
-      graphql`
+  const { allMarkdownRemark } = useStaticQuery(
+    graphql`
       query {
         allMarkdownRemark(
           sort: {order: ASC, fields: frontmatter___order},
@@ -22,11 +21,10 @@ const mainnav = ({includeHome}) => {
         }
       }
     `
-    )
-    return allMarkdownRemark.edges
-  }
+  )
 
-  const pageLinks = getPageList().map( edge => {
+
+  const pageLinks = allMarkdownRemark.edges.map( edge => {
     return (
       <li className={styles.MainnavListItem} key={edge.node.frontmatter.slug}>
         <Link to={edge.node.frontmatter.slug}
@@ -48,4 +46,4 @@ const mainnav = ({includeHome}) => {
   )
 }
 
-export default mainnav;
+export default Mainnav;

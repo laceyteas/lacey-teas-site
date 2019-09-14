@@ -66,7 +66,7 @@ const Reservationform = (props) => (
                     }/>
                     <Textarea label="Anything else you'd like to mention? ...I do take kindly to compliments!"/>
                 </Fieldset>
-                <Submit title="Submit" click />
+                <Submit title="Submit" />
 
             </Form>
         </div>
