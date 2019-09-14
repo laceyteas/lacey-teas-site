@@ -13,7 +13,7 @@ const Reservationform = (props) => (
     <Section>
         <div className={styles.Reservationform} >
             <Sectiontitle>Reservation Form</Sectiontitle>
-            <Form>
+            <Form name='contact'>
                 <Fieldset legend="Full Legal Name">
                     <Input type="type" label="First Name" required/>
                     <Input type="type" label="Last Name" required />
