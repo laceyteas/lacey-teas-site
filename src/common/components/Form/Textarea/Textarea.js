@@ -9,7 +9,7 @@ const Textarea = ({label, required}) => {
     return (
         <div className={styles.TextareaWrapper} >
             <Label label={label} forRef={forRef} required={required}/>
-            <textarea id={forRef} className={styles.Textarea}></textarea>
+            <textarea id={forRef} name={forRef} className={styles.Textarea}></textarea>
         </div>
     )
     

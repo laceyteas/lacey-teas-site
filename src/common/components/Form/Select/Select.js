@@ -9,7 +9,7 @@ const Select = ({optionsArray, label, required}) => {
     return (
         <div className={styles.SelectWrapper} >
             <Label label={label} forRef={forRef} required={required}/>
-            <select className={styles.Select}>
+            <select className={styles.Select} id={forRef} name={forRef}>
                 {optionsArray.map((option, index) => (
                     <option key={index} value={option.value}>{option.name ? option.name : option.value}</option>
                 ))}

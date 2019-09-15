@@ -9,7 +9,7 @@ const Input = ({label, placeholder, maxlength, type, required}) => {
     return (
         <div className={styles.InputWrapper} >
             <Label label={label} forRef={forRef} required={required}/>
-            <input className={styles.Input} id={forRef} placeholder={placeholder} type={type} maxLength={maxlength}/>
+            <input className={styles.Input} id={forRef} name={forRef} placeholder={placeholder} type={type} maxLength={maxlength}/>
         </div>
     )
 }

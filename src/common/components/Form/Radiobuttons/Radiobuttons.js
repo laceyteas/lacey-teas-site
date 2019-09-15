@@ -9,7 +9,7 @@ const Radiobuttons = ({label, radioButtonArray, required}) => {
             <Label label={label} forRef={forRef} required={required}/>
             <ul className={styles.RadioButtonList}>
                 {radioButtonArray.map((radio, index) => (
-                        <li className={styles.RadioButtonItem}><input className={styles.RadioButton} type="radio" value={radio.value} />{radio.name ? radio.name : radio.value}</li>
+                        <li className={styles.RadioButtonItem}><input className={styles.RadioButton} type="radio" value={radio.value} name={forRef}/>{radio.name ? radio.name : radio.value}</li>
                     ))}
             </ul>
         </div>

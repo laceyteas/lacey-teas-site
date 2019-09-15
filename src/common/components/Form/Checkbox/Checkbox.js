@@ -11,7 +11,7 @@ const Checkbox = ({label, checkboxArray, required}) => {
             <Label label={label} forRef={forRef} required={required}/>
             <ul className={styles.CheckboxList}>
                 {checkboxArray.map((checkbox, index) => (
-                        <li className={styles.CheckboxItem}><input className={styles.Checkbox} type="checkbox" value={checkbox.value} />{checkbox.name ? checkbox.name : checkbox.value}</li>
+                        <li className={styles.CheckboxItem}><input className={styles.Checkbox} name={forRef} type="checkbox" value={checkbox.value} />{checkbox.name ? checkbox.name : checkbox.value}</li>
                     ))}
             </ul>
         </div>
