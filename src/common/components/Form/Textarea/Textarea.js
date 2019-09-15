@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './Textarea.module.css';
-import Label from '../Label/Label'
+import Label from '../Label/Label';
+import slugify from '../../../../util/slugify'
 
 const Textarea = ({label, required}) => {
 
-    const forRef = label.replace(/\s/g, ''); //Remove spaces
+    const forRef = slugify(label)
 
     return (
         <div className={styles.TextareaWrapper} >

@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './Input.module.css';
 import Label from '../Label/Label'
+import slugify from '../../../../util/slugify'
 
 const Input = ({label, placeholder, maxlength, type, required}) => {
 
-    const forRef = label.replace(/\s/g, ''); //Remove spaces
+    const forRef = slugify(label)
 
     return (
         <div className={styles.InputWrapper} >

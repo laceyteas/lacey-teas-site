@@ -1,8 +1,9 @@
 import React from 'react';
 import styles from './Radiobuttons.module.css';
+import slugify from '../../../../util/slugify'
 
 const Radiobuttons = ({label, radioButtonArray, required}) => {
-    const forRef = label.replace(/\s/g, ''); //Remove spaces
+    const forRef = slugify(label)
 
     return (
         <div className={styles.RadioButtonWrapper} >
