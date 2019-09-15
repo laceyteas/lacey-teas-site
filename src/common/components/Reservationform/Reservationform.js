@@ -162,7 +162,7 @@ const Reservationform = (props) => {
         <Section>
             <div className={styles.Reservationform} >
                 <Sectiontitle>Reservation Form</Sectiontitle>
-                <Form name='contact' action='/thanks'>
+                <Form name='contact' action='/thanks' submit={submitHandler}>
                     <Fieldset legend="Full Legal Name" >
                         {fieldMaker(Input, {...formFields.firstName})}
                         {fieldMaker(Input, {...formFields.lastName})}
@@ -186,7 +186,7 @@ const Reservationform = (props) => {
                         {fieldMaker(Textarea, {...formFields.extras})}
                         
                     </Fieldset>
-                    <Submit title="Submit" click={submitHandler}/>
+                    <Submit title="Submit"/>
 
                 </Form>
             </div>
