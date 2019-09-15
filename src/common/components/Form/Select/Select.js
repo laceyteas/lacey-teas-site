@@ -3,7 +3,7 @@ import styles from './Select.module.css';
 import Label from '../Label/Label';
 import slugify from '../../../../util/slugify'
 
-const Select = ({optionsArray, label, required}) => {
+const Select = ({optionsArray = [], label, required}) => {
 
     const forRef = slugify(label)
 
