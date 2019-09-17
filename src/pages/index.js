@@ -18,8 +18,9 @@ export default ({ data }) => {
         img={data.markdownRemark.frontmatter.postImage.childImageSharp.fluid}
         htmlcontent={data.markdownRemark.html}
       />
-      <Homegallery />
       <Howtomeet />
+      <Homegallery />
+
     </Layout>
   )
 }

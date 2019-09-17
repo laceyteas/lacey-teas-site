@@ -38,10 +38,11 @@ export default ({props, data}) => {
         <h2>
         Instagram
         </h2>
+        <p>Follow me on Instagram at <a href='https://www.instagram.com/xolaceyteas/'>xolaceyteas</a>.</p>
 
         <Gallery images={instaImages}/>
 
-        <h2>Gallery Folder Images</h2>
+        <h2>More of me</h2>
         <Gallery images={folderImages}/>
       </Page>
     </Layout>
