@@ -1,5 +1,5 @@
 ---
-type: main-page
+type: hidden
 name: about
 slug: /about
 title: Get to know me

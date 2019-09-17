@@ -7,8 +7,6 @@ metaDescription: Ideas to delight you
 postImage: ../img/panties-closeup.jpg
 order: '2'
 ---
-Hello,
-
 Ever since childhood, I loved playing make believe. I collect many eclectic and unusual experiences often seeking adventures that challenge my creativity. Spending time abroad and in books taught me how to find enjoyment and comfort in almost any situation. I take pride in extending that sense of belonging to friends. 
 
 Building an experience from trust and acceptance are the cornerstones of our shared adventures together. As an event planner and experience curator, I am happy collaborating in most any role. I lead comfortably. 
