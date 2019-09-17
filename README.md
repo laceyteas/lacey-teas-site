@@ -43,3 +43,7 @@ This theme is copywrite Lacey Teas
 * The [GatsbyJS](https://www.gatsbyjs.org/) Team for creating an amazing platform.
 * [Netlify](https://www.netlify.com/) for making static site hosting even easier.
 * [Unsplash](https://unsplash.com/) and the Free Photography Community.
+
+##TODO
+* Get form working
+* make sure the 18+ doesn't pop up all the time?

@@ -10,6 +10,7 @@ import Submit from '../Form/Submit/Submit';
 import Sectiontitle from '../../layouts/Section/Sectiontitle/Sectiontitle';
 import { useAlert } from 'react-alert';
 import checkValidity from '../../../util/validation';
+import { navigate } from "gatsby"
 
 const Reservationform = (props) => {
 
@@ -230,7 +231,7 @@ const Reservationform = (props) => {
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: encode({ "form-name": formName, ...simplifiedFormResult })
             })
-                .then(() => alertPopup.success("Success!"))
+                .then(() => navigate('/thanks'))
                 .catch(error => alertPopup.error(error));
         }
     
