@@ -16,10 +16,8 @@ Eagerly, we make it back to our charming suite. I slowly unzip my dress revealin
 
 Breathless, we trade dreams before dawn. Thank you for choosing to spend time with me. 
 
-Let it be real,
+Let it be real…
 
-Lacey
-
-XO,
+XO, 
 
 Lacey
