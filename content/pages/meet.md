@@ -7,7 +7,7 @@ metaDescription: How to schedule a meeting with Lacey Teas
 postImage: ../img/panties-closeup.jpg
 order: '4'
 ---
-## Rates
+## Local San Francisco Rates
 
 1 hour (a brief introduction/welcome to wonderland) – $500
 
