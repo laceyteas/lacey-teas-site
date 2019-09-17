@@ -9,7 +9,7 @@ order: '2'
 ---
 I have a wide variety of interests and I'm open to curating our experience together, or collaborating on something together. Perhaps some of my interests will inspire our date?
 
-Cozy
+## Cozy
 
 * The Roxy theatre for a film
 * Dinner, I have eclectic interests but particularly love seafood
@@ -17,7 +17,7 @@ Cozy
 * Cuddling, I love entangling my limbs with yours
 * Cooking together
 
-Nature
+## Nature
 
 * Botanical gardens in Golden Gate Park
 * Picnics
@@ -25,13 +25,13 @@ Nature
 * Beach walks
 * Golden Gate Park carousel
 
-For the More Adventurous
+## For the More Adventurous
 
 * Bike ride to the Wave Organ
 * Circus Center Classes
 * Roller rink in a church
 
-For the Pervert
+## For the Pervert
 
 * Rope bondage classes
 * Antique Vibrator Museum
@@ -39,7 +39,7 @@ For the Pervert
 * Our Gourmet Life, an erotic dinner party
 * Date Night at the SF Citadel 
 
-See My Victorian Side
+## See My Victorian Side
 
 * Opera
 * High tea
@@ -48,7 +48,7 @@ See My Victorian Side
 * Matcha ceremony lessons
 * Ikebana lessons
 
-Surreal
+## Surreal
 
 * Mirror maze
 * One Dome 
