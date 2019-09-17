@@ -1,14 +1,10 @@
 ---
-
-type: "footer-page"
-name: "privacy-policy"
-title: "Privacy Policy"
-metaDescription: "Privacy policy for Lacey Teas"
-postImage: "../img/panties-closeup.jpg"
-slug: "/privacy-policy"
-date: "2019-01-04"
-
+type: footer-page
+name: privacy-policy
+slug: /privacy-policy
+title: Privacy Policy
+metaDescription: Privacy policy for Lacey Teas
+postImage: ../img/panties-closeup.jpg
+order: '0'
 ---
-
-Privacy Policy goes here
-
+I value my privacy as much as I do yours. Your confidential information is keep private and safe.
