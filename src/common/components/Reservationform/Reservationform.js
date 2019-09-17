@@ -13,6 +13,8 @@ import checkValidity from '../../../util/validation';
 
 const Reservationform = (props) => {
 
+    const formName = 'reservation'
+
     const alertPopup = useAlert();
 
     const defaultSelectOption = {value: "-- select an option --", disabled: true}
@@ -222,11 +224,11 @@ const Reservationform = (props) => {
           }
         
         if (allValid) {
-            console.log('submit')
+            console.log('submit',simplifiedFormResult)
             fetch("/", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                body: encode({ "form-name": "contact", ...simplifiedFormResult })
+                body: encode({ "form-name": formName, ...simplifiedFormResult })
             })
                 .then(() => alertPopup.success("Success!"))
                 .catch(error => alertPopup.error(error));
@@ -273,7 +275,7 @@ const Reservationform = (props) => {
         <Section>
             <div className={styles.Reservationform} >
                 <Sectiontitle>Reservation Form</Sectiontitle>
-                <Form name='contact' action='/thanks' submit={submitHandler}>
+                <Form name={formName} action='/thanks' submit={submitHandler}>
                     <Fieldset legend="Full Legal Name" >
                         {fieldMaker(Input, {...formFields.firstName})}
                         {fieldMaker(Input, {...formFields.lastName})}
