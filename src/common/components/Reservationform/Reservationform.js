@@ -8,67 +8,117 @@ import Textarea from '../Form/Textarea/Textarea'
 import Select from '../Form/Select/Select'
 import Submit from '../Form/Submit/Submit';
 import Sectiontitle from '../../layouts/Section/Sectiontitle/Sectiontitle';
+import { useAlert } from 'react-alert';
+import checkValidity from '../../../util/validation';
 
 const Reservationform = (props) => {
+
+    const alertPopup = useAlert();
+
+    const defaultSelectOption = {value: "-- select an option --", disabled: true}
 
     const formFieldsDefault = {
         firstName: {
             name:'firstName',
             label: "First Name",
+            validation: {
+                required: true,
+            },
             value: '',
-            required: true
+            valid: false,
+            touched: false,
+            error: false,
         },
         lastName: {
             name: 'lastName',
             label: "Last Name",
+            validation: {
+                required: true,
+            },
             value: '',
-            required: true
+            valid: false,
+            touched: false,
+            error: false,
         },
         email: {
             name:'email',
             label: "Email",
             value: '',
-            required: true
+            validation: {
+                required: true,
+                isEmail: true,
+            },
+            valid: false,
+            touched: false,
+            error: false,
         },
         phone: {
             name: 'phone',
             label: "Phone",
+            validation: {
+                required: true,
+                isPhone: true,
+            },
             value: '',
-            required: true
+            valid: false,
+            touched: false,
+            error: false,
         },
         screeningProfession: {
             name: 'screeningProfession',
             label: "Profession",
             value: '',
-            required: true
+            validation: {
+                required: true,
+            },
+            valid: false,
+            touched: false,
+            error: false,
         },
         screeningType: {
             name: 'screeningType',
             label: "What type of screening will you be providing?",
             options: [
+                defaultSelectOption,
                 {value: "Employment/Identity Verification"},
                 {value: "Provider References"},
                 {value: "Combination of both"}
             ],
-            value: '',
-            required: true
+            value: defaultSelectOption.value,
+            validation: {
+                required: true,
+            },
+            valid: false,
+            touched: false,
+            error: false,
         },
         screeningVerification: {
             name: 'screeningVerification',
             label: "Identity verification details",
             value: '',
-            required: true
+            validation: {
+                required: true,
+            },
+            valid: false,
+            touched: false,
+            error: false,
         },
         meetingLocation: {
             name: 'meetingLocation',
             label: "When and where would you like to meet?",
             value: '',
-            required: true
+            validation: {
+                required: true,
+            },
+            valid: false,
+            touched: false,
+            error: false,
         },
         meetingDuration: {
             name: 'meetingDuration',
             label: "Desired duration of our time together?",
             options: [
+                defaultSelectOption,
                 {value: "60 minutes (limited avialability)"},
                 {value: "90 minutes"},
                 {value: "2 hours"},
@@ -80,19 +130,30 @@ const Reservationform = (props) => {
                 {value: "staycation"},
                 {value: "travel/extended"},
             ],
-            value: '',
-            required: true
+            value: defaultSelectOption.value,
+            validation: {
+                required: true,
+            },
+            valid: false,
+            touched: false,
+            error: false,
         },
         interests: { 
             name: 'interests',
             label: "What would you like me to know about you? What interests you about me?",
             value: '',
-            required: false,
+            validation: {
+                required: false,
+            },
+            valid: true,
+            touched: false,
+            error: false,
         },
         howYouFoundMe: {
             name: 'howYouFoundMe',
             label: "How did you find me?",
             options: [
+                defaultSelectOption,
                 {value: "Tryst"},
                 {value: "Slixa"},
                 {value: "Eros"},
@@ -102,14 +163,24 @@ const Reservationform = (props) => {
                 {value: "The Other Board"},
                 {value: "other"}
             ],
-            value: '',
-            required: true
+            value: defaultSelectOption.value,
+            validation: {
+                required: true,
+            },
+            valid: false,
+            touched: false,
+            error: false,
         },
         extras: {
             name: 'extras',
             label: "Anything else you'd like to mention? ...I do take kindly to compliments!",
             value: '',
-            required: false,
+            validation: {
+                required: false,
+            },
+            valid: true,
+            touched: false,
+            error: false,
         },
     }
     
@@ -129,31 +200,71 @@ const Reservationform = (props) => {
     }
 
     const submitHandler = e => {
-        fetch("/", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: encode({ "form-name": "contact", ...simplifiedFormResult })
-          })
-            .then(() => alert("Success!"))
-            .catch(error => alert(error));
+        e.preventDefault()
+        const validationArray = Object.keys(formFields).map(key => {
+            return {key:key, name:formFields[key].name, valid: formFields[key].valid, validation: formFields[key].validation, label: formFields[key].label}
+        })
+
+        let allValid = true
+   
+        for (let field of validationArray) {
+            let error = []
+            if (!field.valid) {
+                if (field.validation.required) {
+                    error = [...error, 'is required']
+                }
+                if (field.validation.isEmail) error = [...error, 'must be a valid email address']
+                if (field.validation.isPhone) error = [...error, 'must be a valid phone number']
+                alertPopup.error( `'${field.label}' ${error.join(' and ')}`);
+                allValid = false
+                break;
+            }
+          }
+        
+        if (allValid) {
+            console.log('submit')
+            fetch("/", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: encode({ "form-name": "contact", ...simplifiedFormResult })
+            })
+                .then(() => alertPopup.success("Success!"))
+                .catch(error => alertPopup.error(error));
+        }
     
-          e.preventDefault()
+          
     }
 
     const changeHandler = e => {    
-        setFormFields({...formFields, [e.target.name]: {...formFields[e.target.name], value: e.target.value} })
+        setFormFields({...formFields, 
+            [e.target.name]: {...formFields[e.target.name], 
+                value: e.target.value,
+                valid: checkValidity(e.target.value,formFields[e.target.name].validation),
+                touched: true
+            } })
+    }
+    const blurHandler = e => {
+        const validity = checkValidity(e.target.value,formFields[e.target.name].validation)
+        console.log('blur',!validity)
+        setFormFields({...formFields, 
+            [e.target.name]: {...formFields[e.target.name], 
+                valid: validity,
+                error: !validity
+            } })
     }
 
     const fieldMaker = (Field, props) => {
-        const {name,label,value,required, options} = props
+        const {name,label,error, value,validation = {}, options} = props
         return Field ? (
             <Field
                 label={label}
                 name={name}
                 value={value}
-                required={required}
+                required={validation.required}
                 change={changeHandler}
+                blur={blurHandler}
                 optionsArray={options}
+                error={error}
             />
         ) : null
     }

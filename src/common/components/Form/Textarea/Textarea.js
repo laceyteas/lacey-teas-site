@@ -1,16 +1,15 @@
 import React from 'react';
 import styles from './Textarea.module.css';
 import Label from '../Label/Label';
-import slugify from '../../../../util/slugify'
 
-const Textarea = ({label, required}) => {
+const Textarea = ({label, required, error, name, value, change, blur}) => {
 
-    const forRef = slugify(label)
+    const fieldClass = error ? [styles.Textarea, styles.Error].join(' ') : styles.Textarea
 
     return (
         <div className={styles.TextareaWrapper} >
-            <Label label={label} forRef={forRef} required={required}/>
-            <textarea id={forRef} name={forRef} className={styles.Textarea}></textarea>
+            <Label label={label} forRef={name} required={required}/>
+            <textarea id={name} name={name} value={value} onChange={change} onBlur={blur} className={fieldClass} ></textarea>
         </div>
     )
     
