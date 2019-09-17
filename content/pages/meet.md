@@ -9,19 +9,18 @@ order: '4'
 ---
 ## Local San Francisco Rates
 
-1 hour (a brief introduction/welcome to wonderland) – $500
+My rates are as listed and not up for negotiation. I offer a boutique experience where I put every ounce of my being into it.
 
-1.5 hours (tea for two) – $750 _preferred minimum_
+* 1 hour (a brief introduction/welcome to wonderland) – $500
+* 1.5 hours (tea for two) – $750 _preferred minimum_
+* 2 hours (curiouser and curiouser) – $1,000
+* 3 hours (curiouser and curiouser) – $1,400
+* 4 hours (Travel to wonderland) – $1,800
+* 6 hours (Dinner and theater) – $2,200
 
-2 hours (curiouser and curiouser) – $1,000
+**Longer Experiences and Travel:** Once we get to know each other, I am open to overnight stays and longer experiences and the possibly of travel — an entire day together at the amusement park, an adventure to cabin in the woods, or even to be your companion on a trip abroad! If these sorts of experiences interest you we can discuss what the proper compensation would be at that time.
 
-3 hours (curiouser and curiouser) – $1,400
-
-4 hours (Travel to wonderland) – $1,800
-
-6 hours (Dinner and theater) – $2,200
-
-## How to Reserve Time With Me
+## Reserving Our First Time Together
 
 I ask that all first time clients submit their full name, phone number and email address, as well as references for verification purposes. References need to be either two provider references or one provider reference and employment verification. _I take your security seriously and will keep your information private._ 
 
