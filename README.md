@@ -45,5 +45,6 @@ This theme is copywrite Lacey Teas
 * [Unsplash](https://unsplash.com/) and the Free Photography Community.
 
 ##TODO
-* Get form working
 * make sure the 18+ doesn't pop up all the time?
+* add link to meet from bottom of ettiquite page
+* add 4 images to home gallery

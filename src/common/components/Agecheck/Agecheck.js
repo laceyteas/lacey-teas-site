@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 //import styles from './Agecheck.module.css';
 import useSession, { UseSessionProvider } from 'react-session-hook';
 import jwt from "jsonwebtoken";
@@ -13,6 +13,8 @@ const token = jwt.sign(
 
 const SessionCheck = () => {
 
+    const [allowed, setAllowed] = useState('precheck'); //precheck is before session check fires
+
     const session = useSession();
 
     const googleKittenSearch = () => {
@@ -24,7 +26,11 @@ const SessionCheck = () => {
         session.setSession({ token })
     }
 
-    if (session.isAuthenticated) {
+    useEffect(()=>{
+        if (session.isAuthenticated) { setAllowed('allowed') } else { setAllowed('not allowed') }
+    },[session,setAllowed])
+
+    if (allowed === 'precheck' || allowed === 'allowed') {
         return (
             null
         )
@@ -43,10 +49,13 @@ const SessionCheck = () => {
       }
 };
 
-const Agecheck = () => (
+const Agecheck = () => {
+
+    return (
     <UseSessionProvider>
         <SessionCheck />
     </UseSessionProvider>
-)
+    )
+}
 
 export default Agecheck;
