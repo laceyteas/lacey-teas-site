@@ -6,7 +6,7 @@ postImage: ../img/chair-lean.jpg
 ---
 Darling,
 
-I woke up dreaming of you. The crisp linen sheets still tossed with your imprint. I slip into the silk robe you gifted me from your travels, the one that you claim transforms me into a Waterhouse nymph. My curves and edges chassé behind the curtains as I mist the orchids next to my window. After perusing my playlists, I settle on a dreamy Billie Holiday album and draw myself a bath. 
+I woke up dreaming of you. The crisp linen sheets still tossed with your imprint. I slip into the silk robe you gifted me from your travels, the one that you claim transforms me into a Waterhouse nymph. My curves and edges chassé behind the curtains as I mist the orchids next to my window. After perusing my playlists, I settle on a dreamy Billie Holiday album and draw myself a bath.
 
 The steam rising blends with an earthy musk you left on me. As the singer reveals her own warbly longing, I too dream of spending April in Paris with you- strolling down the cobblestones of Rue Cremieux on a rainy day, my tiny heels clicking and splashing as we rush to our dinner reservation. 
 
