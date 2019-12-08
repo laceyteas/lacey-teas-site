@@ -116,12 +116,6 @@ module.exports = {
         exclude: ['/success'],
         cookieDomain: "tyra-starter.netlify.com",
       }
-    },
-    {
-      resolve: `gatsby-source-instagram`,
-      options: {
-        username: `xolaceyteas`,
-      },
     }
   ]
 }
