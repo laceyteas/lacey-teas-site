@@ -5,16 +5,8 @@ import Seo from '../common/seo';
 import Page from '../common/layouts/Page/Page';
 import Gallery from '../common/components/Gallery/Gallery';
 import useGalleryFolderImages from '../hooks/useGalleryFolderImages';
-import useInstaNode from '../hooks/useInstaNode';
 
 export default ({props, data}) => {
-
-  const instaImages = useInstaNode().map( ({node}) => {
-    return {
-      id: node.id,
-      fluid: node.localFile.childImageSharp.fluid
-    }
-  })
 
   const folderImages = useGalleryFolderImages().map( ({node}) => {
     return {
@@ -35,14 +27,8 @@ export default ({props, data}) => {
         img={data.markdownRemark.frontmatter.postImage.childImageSharp.fluid}
         htmlcontent={data.markdownRemark.html}
       >
-        <h2>
-        Instagram
-        </h2>
-        <p>Follow me on Instagram at <a href='https://www.instagram.com/xolaceyteas/'>xolaceyteas</a>.</p>
 
-        <Gallery images={instaImages}/>
-
-        <h2>More of me</h2>
+        <h2>Gallery</h2>
         <Gallery images={folderImages}/>
       </Page>
     </Layout>
