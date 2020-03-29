@@ -14,8 +14,8 @@ module.exports = {
     github: "", // YOUR GITHUB PROFILE HERE 
     pinterest: "", // YOUR PINTEREST PROFILE HERE
     facebook: "", // YOUR FACEBOOK PROFILE HERE
-    twitter: "https://twitter.com/laceyteas", // YOUR TWITTER PROFILE HERE
-    instagram: "https://www.instagram.com/xolaceyteas/",
+    twitter: "https://twitter.com/florasparks", // YOUR TWITTER PROFILE HERE
+    instagram: "https://www.instagram.com/florasparks/",
   },
   plugins: [
     'gatsby-plugin-sitemap',

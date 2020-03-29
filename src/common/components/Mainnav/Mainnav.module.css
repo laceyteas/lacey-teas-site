@@ -1,5 +1,5 @@
 @value variables: "../../styles/variables.css";
-@value _off_white, _body_text_color, _pink, _deep_pink, _med_gray, _menuwidth from variables;
+@value _menuwidth from variables;
 
 .Mainnav {
     height: 100%;
@@ -22,7 +22,7 @@
 
 .Link, .Link:visited {
     text-decoration: none;
-    color: #fff;
+    color: var(--off-white);
     margin: 0.8rem;
     display: inline-block;
     border-bottom: 1px solid transparent;
@@ -33,7 +33,7 @@
 @media (hover) {
     .Link:hover {
         border-bottom: 1px solid #fff;
-        color: #fff;
+        color: var(--gold);
     }
 }
 
@@ -43,14 +43,14 @@
 
 
 @media (min-width: _menuwidth) {
-    
+
     .MainnavList {
         flex-direction: row;
     }
 
     .Active, .Active:hover {
         border-bottom: 1px solid transparent !important;
-        color: _deep_pink !important;
+        color: var(--gold) !important;
     }
 
     .Link, .Link:visited {

@@ -5,7 +5,7 @@ slug: /meet
 title: How to meet me
 metaDescription: How to schedule a meeting with Lacey Teas
 postImage: ../img/panties-closeup.jpg
-order: '4'
+order: '5'
 ---
 ## Local San Francisco Rates
 

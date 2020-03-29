@@ -1,12 +1,12 @@
 @value variables: "../../styles/variables.css";
-@value _off_white, _body_text_color, _pink, _med_gray, _menuwidth from variables;
+@value _menuwidth from variables;
 
 .Navbar {
     position: sticky;
     top: 0;
     z-index: 100;
     height: 80px;
-    background: _pink;
+    background: var(--navy-blue);
     display: flex;
     justify-content: space-between;
 }

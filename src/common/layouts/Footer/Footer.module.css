@@ -1,9 +1,9 @@
 @value variables: "../../styles/variables.css";
-@value _off_white, _body_text_color, _pink, _med_gray, _menuwidth from variables;
+@value _menuwidth from variables;
 
 .Footer {
-    background: _med_gray;
-    color: _off_white;
+    background: var(--navy-blue);
+    color: var(--off-white);
     font-size: .9rem;
     display: flex;
     justify-content: space-between;
@@ -15,7 +15,7 @@
 }
 
 .Footer a {
-    color: _pink;
+    color: var(--off-white);
     text-decoration: none;
     border-bottom: 1px solid transparent;
     transition: all .5s;
@@ -24,7 +24,7 @@
 }
 .Footer a:hover {
     border-bottom: 1px solid #fff;
-    color: #fff;
+    color: var(--gold);
 }
 
 .Copyright {

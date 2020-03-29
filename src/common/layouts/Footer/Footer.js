@@ -16,8 +16,8 @@ const Footer = (props) => {
             <div className={styles.Socialnav}>
                 <nav>
                     <ul>
-                        { twitter ? <li><a href={twitter}><FiTwitter /><span>laceyteas</span></a> </li> : null }
-                        { instagram ? <li><a href={instagram}><FiInstagram/><span>xolaceyteas</span></a> </li> : null }
+                        { twitter ? <li><a href={twitter}><FiTwitter /><span>florasparks</span></a> </li> : null }
+                        { instagram ? <li><a href={instagram}><FiInstagram/><span>florasparks</span></a> </li> : null }
                     </ul>
                 </nav>
             </div>
@@ -31,6 +31,6 @@ const Footer = (props) => {
         </div>
     )
 
-}  
+}
 
 export default Footer;
