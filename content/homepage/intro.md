@@ -1,8 +1,8 @@
 ---
-title: Lacey Teas
+title: ''
 type: copy
 name: homepage__intro
-postImage: ../img/header2.jpg
+postImage: ../img/header4.jpg
 ---
 Darling,
 
