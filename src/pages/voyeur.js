@@ -8,7 +8,7 @@ import useGalleryFolderImages from '../hooks/useGalleryFolderImages';
 import { remarkForm } from 'gatsby-tinacms-remark';
 
 const Voyeur = ({data}) => {
-
+  const img = data.markdownRemark.frontmatter.postImage ? data.markdownRemark.frontmatter.postImage.childImageSharp.fluid : null;
   const folderImages = useGalleryFolderImages().map( ({node}) => {
     return {
       id: node.id,
@@ -25,7 +25,7 @@ const Voyeur = ({data}) => {
         description={data.markdownRemark.frontmatter.metaDescription} />
       <Page 
         title={data.markdownRemark.frontmatter.title}
-        img={data.markdownRemark.frontmatter.postImage.childImageSharp.fluid}
+        img={img}
         htmlcontent={data.markdownRemark.html}
       >
 

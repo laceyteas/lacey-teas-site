@@ -6,19 +6,21 @@ import Page from '../common/layouts/Page/Page';
 import Reservationform from '../common/components/Reservationform/Reservationform';
 import { remarkForm } from 'gatsby-tinacms-remark';
 
-const Meet = ({data}) => (
+const Meet = ({data}) => {
+  const img = data.markdownRemark.frontmatter.postImage ? data.markdownRemark.frontmatter.postImage.childImageSharp.fluid : null;
+  return (
   <Layout>
     <Seo
       title={data.markdownRemark.frontmatter.title}
       description={data.markdownRemark.frontmatter.metaDescription} />
-    <Page 
-      title={data.markdownRemark.frontmatter.title} 
-      img={data.markdownRemark.frontmatter.postImage.childImageSharp.fluid}
+    <Page
+      title={data.markdownRemark.frontmatter.title}
+      img={img}
       htmlcontent={data.markdownRemark.html}
     />
     <Reservationform/>
   </Layout>
-)
+)}
 
 export default remarkForm(Meet)
 

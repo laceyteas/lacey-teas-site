@@ -14,11 +14,10 @@ const Privacy = ({data}) => (
     <Helmet>
       <meta name="robots" content="noindex, nofollow" />
     </Helmet>
-    <Page 
-      title={data.markdownRemark.frontmatter.title} 
+    <Page
+      title={data.markdownRemark.frontmatter.title}
       htmlcontent={data.markdownRemark.html}
     />
-    
   </Layout>
 )
 

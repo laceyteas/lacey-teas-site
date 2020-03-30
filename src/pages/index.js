@@ -8,15 +8,17 @@ import Page from "../common/layouts/Page/Page";
 import { remarkForm } from 'gatsby-tinacms-remark';
 
 const Index =  ({ data }) => {
-  
+
+  const img = data.markdownRemark.frontmatter.postImage ? data.markdownRemark.frontmatter.postImage.childImageSharp.fluid : null;
+
   return (
     <Layout>
       <Seo
         title={"Home Page"}
         description={data.site.siteMetadata.description} />
-      <Page 
-        title={data.markdownRemark.frontmatter.title} 
-        img={data.markdownRemark.frontmatter.postImage.childImageSharp.fluid}
+      <Page
+        title={data.markdownRemark.frontmatter.title}
+        img={img}
         htmlcontent={data.markdownRemark.html}
       />
       <Howtomeet />

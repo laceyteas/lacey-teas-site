@@ -6,18 +6,20 @@ import Page from '../common/layouts/Page/Page';
 import { remarkForm } from 'gatsby-tinacms-remark';
 
 
-const Etiquette = ({data}) => (
+const Etiquette = ({data}) => {
+  const img = data.markdownRemark.frontmatter.postImage ? data.markdownRemark.frontmatter.postImage.childImageSharp.fluid : null;
+  return (
   <Layout>
     <Seo
       title={data.markdownRemark.frontmatter.title}
       description={data.markdownRemark.frontmatter.metaDescription} />
     <Page
       title={data.markdownRemark.frontmatter.title}
-      img={data.markdownRemark.frontmatter.postImage.childImageSharp.fluid}
+      img={img}
       htmlcontent={data.markdownRemark.html}
     />
   </Layout>
-)
+)}
 
 export default remarkForm(Etiquette)
 
