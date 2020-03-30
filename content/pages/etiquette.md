@@ -1,21 +1,21 @@
 ---
+title: Etiquette
 type: main-page
 name: etiquette
 slug: /etiquette
-title: Etiquette
 metaDescription: Proper etiquette when entertaining Lacey Teas
 postImage: ../img/panties-closeup.jpg
 order: '3'
 ---
 ## Before We Meet
 
-Our initial communications will be simple yet sweet as we plan our special occasion together. I ask that you read over the information on this site as it will make this process easier. Once we do meet, we will have plenty of time for more intimate discussions.
+Our initial communications will be simple yet sweet focused on planning our special occasion together. I ask that you read over the information on this site as it will make this process easier. Once we do meet, we will have plenty of time for more intimate discussions.
 
-**Rates:** My rates are as listed and not up for negotiation. I offer a boutique experience where I put every ounce of my being into it. 
+**Rates:** My rates are as listed and not up for negotiation. I offer a boutique experience where I put every ounce of my being into it.
 
 **Screening:** I have a simple screening process which allows us open an honest dialogue and for both of us to feel safe. Your privacy is very important to me. Any information given to me will be treated with the utmost confidentiality and respect.
 
-_My rates and screening form can be found on_ [_How to Meet Me_](/meet)_._
+_My rates and screening form can be found on_ _[How to Meet Me](/meet)._
 
 ## Our Time Together
 
