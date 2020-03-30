@@ -2,7 +2,7 @@
 title: Lacey Teas
 type: copy
 name: homepage__intro
-postImage: ../img/header.jpg
+postImage: ../img/Header.jpg
 ---
 Darling,
 
