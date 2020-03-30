@@ -1,7 +1,7 @@
 ---
+title: Lacey Teas
 type: copy
 name: homepage__intro
-title: Lacey Teas
 postImage: ../img/chair-lean.jpg
 ---
 Darling,

@@ -5,8 +5,9 @@ import Seo from '../common/seo';
 import Page from '../common/layouts/Page/Page';
 import Gallery from '../common/components/Gallery/Gallery';
 import useGalleryFolderImages from '../hooks/useGalleryFolderImages';
+import { remarkForm } from 'gatsby-tinacms-remark';
 
-export default ({props, data}) => {
+const Voyeur = ({data}) => {
 
   const folderImages = useGalleryFolderImages().map( ({node}) => {
     return {
@@ -35,6 +36,8 @@ export default ({props, data}) => {
   )
 }
 
+export default remarkForm(Voyeur)
+
 export const dataQuery = graphql`
   query {
     markdownRemark(frontmatter: {name: {eq: "voyeur"}}) {
@@ -47,9 +50,10 @@ export const dataQuery = graphql`
             fluid(maxHeight: 720, maxWidth: 1920, cropFocus: CENTER) {
               ...GatsbyImageSharpFluid
             }
-          } 
+          }
         }
       }
+      ...TinaRemark
     }
   }
 `

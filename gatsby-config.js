@@ -1,10 +1,9 @@
 module.exports = {
   siteMetadata: {
     navbarLinks: [
-      
     ],
-    title: "Lacey Teas",
-    description: "Site for Lacey Teas",
+    title: "Flora Sparks",
+    description: "Site for Flora Sparks",
     siteUrl: "https://tyra-starter.netlify.com",
     homepageHeader: "Lingerie, pink, and maybe some sass.",
     homepageAbout: "Lingerie, pink, and maybe some sass. Snuggle buddy and muse.",
@@ -22,6 +21,19 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-plugin-tinacms',
+      options: {
+        sidebar: {
+          hidden: process.env.NODE_ENV === "production",
+          position: "displace",
+        },
+        plugins: [
+          "gatsby-tinacms-git",
+          "gatsby-tinacms-remark",
+        ],
+      }
+    },
     {
       resolve: 'gatsby-plugin-feed',
       options: {

@@ -5,8 +5,9 @@ import Seo from '../common/seo';
 import Howtomeet from '../homepage/Howtomeet/Howtomeet';
 import Homegallery from '../homepage/Homegallery/Homegallery'
 import Page from "../common/layouts/Page/Page";
+import { remarkForm } from 'gatsby-tinacms-remark';
 
-export default ({ data }) => {
+const Index =  ({ data }) => {
   
   return (
     <Layout>
@@ -24,6 +25,7 @@ export default ({ data }) => {
     </Layout>
   )
 }
+export default remarkForm(Index)
 
 export const query = graphql`
   query {
@@ -39,6 +41,7 @@ export const query = graphql`
           } 
         }
       }
+      ...TinaRemark
     }
     site {
       siteMetadata {

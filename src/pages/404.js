@@ -3,7 +3,7 @@ import Layout from '../common/layouts/Layout/Layout';
 //import Img from 'gatsby-image';
 import { graphql, Link } from 'gatsby';
 import Seo from '../common/seo';
-import Page from '../common/layouts/Page/Page'
+import Page from '../common/layouts/Page/Page';
 
 
 export default ({props, data}) => (

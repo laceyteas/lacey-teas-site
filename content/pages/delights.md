@@ -1,8 +1,8 @@
 ---
+title: Delights
 type: main-page
 name: delights
 slug: /delights
-title: Delights
 metaDescription: Ideas to delight you
 postImage: ../img/panties-closeup.jpg
 order: '2'

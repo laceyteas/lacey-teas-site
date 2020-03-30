@@ -4,8 +4,9 @@ import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import Seo from '../common/seo';
 import Page from '../common/layouts/Page/Page';
+import { remarkForm } from 'gatsby-tinacms-remark';
 
-export default ({props, data}) => (
+const Privacy = ({data}) => (
   <Layout>
     <Seo
       title={data.markdownRemark.frontmatter.title}
@@ -21,6 +22,8 @@ export default ({props, data}) => (
   </Layout>
 )
 
+export default remarkForm(Privacy)
+
 export const dataQuery = graphql`
   query {
     markdownRemark(frontmatter: {name: {eq: "privacy-policy"}}) {
@@ -33,9 +36,10 @@ export const dataQuery = graphql`
             fluid(maxHeight: 720, maxWidth: 1920, cropFocus: CENTER) {
               ...GatsbyImageSharpFluid
             }
-          } 
+          }
         }
       }
+      ...TinaRemark
     }
   }
 `

@@ -3,9 +3,9 @@ import Layout from '../common/layouts/Layout/Layout';
 import { graphql } from 'gatsby';
 import Seo from '../common/seo';
 import Page from '../common/layouts/Page/Page';
+import { remarkForm } from 'gatsby-tinacms-remark';
 
-
-export default ({props, data}) => (
+const Delights = ({data}) => (
   <Layout>
     <Seo
       title={data.markdownRemark.frontmatter.title}
@@ -17,6 +17,8 @@ export default ({props, data}) => (
     />
   </Layout>
 )
+
+export default remarkForm(Delights)
 
 export const dataQuery = graphql`
   query {
@@ -30,9 +32,10 @@ export const dataQuery = graphql`
             fluid(maxHeight: 720, maxWidth: 1920, cropFocus: CENTER) {
               ...GatsbyImageSharpFluid
             }
-          } 
+          }
         }
       }
+      ...TinaRemark
     }
   }
 `
