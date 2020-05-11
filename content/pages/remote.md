@@ -11,19 +11,23 @@ We are in strange times, and as much as I love connecting in the physical space 
 
 This may not appeal at first, but trust me that intimacy and connection can be found in the sound waves from our phones and the words in our text message. I am offering text, phone and video companionship.
 
-**My undivided attention text rates:**
+**My undivided attention rates:**
 
-For short and intense bursts of texting, including in the moment reciprocal erotic photo exchange 
+For short and intense bursts of texting or a sexy phone call, including in the moment reciprocal erotic photo exchange 
 
 30 min/$100
 
 **GFE texting:**
 
-Seeking something a little sweeter, like a cuddle buddy over text? Consider my digital girlfriend packages
+Seeking something a little sweeter, like a cuddle buddy over text? Consider my digital girlfriend packages.
+
+$100/day  
+$500/week  
+$1500/month
 
 Terms:
 
 * I will respond to texts from 8 am to 8 pm
 * I take breaks throughout the day to focus on movement, take walks and work so sometimes there may be delays in response but I am usually quite timely
 * You will receive updates on my life, my creative projects and of course cute selfies of me!
-* Texting available via telegram, whatsapp or s
+* Texting available via telegram, whatsapp or sms
