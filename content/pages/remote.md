@@ -31,3 +31,9 @@ Terms:
 * I take breaks throughout the day to focus on movement, take walks and work so sometimes there may be delays in response but I am usually quite timely
 * You will receive updates on my life, my creative projects and of course cute selfies of me!
 * Texting available via telegram, whatsapp or sms
+
+**Pen Pals:**
+
+Send me an erotic letter and I will respond! 
+
+$75/letter & answer
