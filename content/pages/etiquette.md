@@ -4,7 +4,7 @@ type: main-page
 name: etiquette
 slug: /etiquette
 metaDescription: Proper etiquette when entertaining Lacey Teas
-postImage: ../img/panties-closeup.jpg
+postImage: ../img/poppies.JPG
 order: '3'
 ---
 ## Before We Meet
