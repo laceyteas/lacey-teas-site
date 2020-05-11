@@ -1,5 +1,5 @@
 ---
-title: Remote Options
+title: Distance Affairs
 type: main-page
 name: remote
 slug: /remote
