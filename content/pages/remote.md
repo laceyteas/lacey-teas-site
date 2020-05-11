@@ -37,3 +37,7 @@ Terms:
 Send me an erotic letter and I will respond! 
 
 $75/letter & answer
+
+**Custom Content:**
+
+I love to design and create content. Please reach out to me with your ideas. Custom content starts at $100/5 min but prices can change depending on complexi
