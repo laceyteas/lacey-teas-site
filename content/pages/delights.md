@@ -4,7 +4,7 @@ type: main-page
 name: delights
 slug: /delights
 metaDescription: Ideas to delight you
-postImage: ../img/panties-closeup.jpg
+postImage: ../img/Lacey_Angel_21.jpg
 order: '2'
 ---
 Ever since childhood, I loved playing make believe. I collect many eclectic and unusual experiences often seeking adventures that challenge my creativity. Spending time on adventurous road trips and in books taught me how to find enjoyment and comfort in almost any situation. I take pride in extending that sense of belonging to friends.
