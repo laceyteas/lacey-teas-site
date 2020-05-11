@@ -1,10 +1,10 @@
 ---
+title: Behind the Scenes
 type: main-page
 name: voyeur
 slug: /voyeur
-title: Voyeur
 metaDescription: Gallery of images
-postImage: ../img/panties-closeup.jpg
+postImage: ../img/header.jpg
 order: '1'
 ---
 The bohemian value of passionate expression above all else inspires my style. Across my shapely torso and long legs, you might notice a carefully curated collection of tattoos. They each come with stories as unique as their form. I often exaggerate my hourglass figure by wearing corsets. 
