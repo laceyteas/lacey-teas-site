@@ -13,7 +13,7 @@ This may not appeal at first, but trust me that intimacy and connection can be f
 
 **My undivided attention text rates:**
 
-For short and intense bursts of texting, including in the moment reciprocal erotic photo exc 
+For short and intense bursts of texting, including in the moment reciprocal erotic photo exchange 
 
 30 min/$100
 
@@ -21,8 +21,9 @@ For short and intense bursts of texting, including in the moment reciprocal erot
 
 Seeking something a little sweeter, like a cuddle buddy over text? Consider my digital girlfriend packages
 
-terms:
+Terms:
 
 * I will respond to texts from 8 am to 8 pm
-* I take breaks throughout the day to focus on movement, take walks and work so sometimes there may be delays
+* I take breaks throughout the day to focus on movement, take walks and work so sometimes there may be delays in response but I am usually quite timely
 * You will receive updates on my life, my creative projects and of course cute selfies of me!
+* Texting available via telegram, whatsapp or s
