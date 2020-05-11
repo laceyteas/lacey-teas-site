@@ -4,7 +4,7 @@ type: main-page
 name: remote
 slug: /remote
 metaDescription: options for remote interactions
-postImage: ../img/panties.jpg
+postImage: ../img/Lacey_Goddess_38.jpg
 order: '4'
 ---
 Lorem Ipsum
