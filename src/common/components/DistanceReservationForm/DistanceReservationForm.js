@@ -80,7 +80,7 @@ const DistanceReservationForm = (props) => {
                 {value: "Undivided Attention"},
                 {value: "Custom Content"},
             ],
-            value: '',
+            value: defaultSelectOption.value,
             validation: {
                 required: true,
             },
@@ -135,12 +135,10 @@ const DistanceReservationForm = (props) => {
 
     const [formFields, setFormFields] = useState(formFieldsDefault);
 
-    const simplifiedFormResult = Object.keys(formFields).reduce((acc,field, i) => {
-        if (i === 1) {
-            acc = {[acc]:formFields[acc].value}
-        } else acc = {...acc, [field]:formFields[field].value}
-        return acc
-    })
+    const simplifiedFormResult = Object.keys(formFields).reduce((acc,field) => {
+        acc[field] = formFields[field].value;
+        return acc;
+    },{});
 
     const encode = (data) => {
         return Object.keys(data)
@@ -171,7 +169,6 @@ const DistanceReservationForm = (props) => {
           }
 
         if (allValid) {
-            console.log('submit',simplifiedFormResult)
             fetch("/", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -182,8 +179,8 @@ const DistanceReservationForm = (props) => {
         }
 
     }
-
     const changeHandler = e => {
+        //console.log('change',e.target.name,e.target.value)
         setFormFields({...formFields,
             [e.target.name]: {...formFields[e.target.name],
                 value: e.target.value,
@@ -193,7 +190,7 @@ const DistanceReservationForm = (props) => {
     }
     const blurHandler = e => {
         const validity = checkValidity(e.target.value,formFields[e.target.name].validation)
-        console.log('blur',!validity)
+        //console.log('blur',e.target.name,e.target.value,!validity)
         setFormFields({...formFields,
             [e.target.name]: {...formFields[e.target.name],
                 valid: validity,

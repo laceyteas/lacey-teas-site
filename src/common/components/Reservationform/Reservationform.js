@@ -190,12 +190,10 @@ const Reservationform = (props) => {
 
     const [formFields, setFormFields] = useState(formFieldsDefault);
 
-    const simplifiedFormResult = Object.keys(formFields).reduce((acc,field, i) => {
-        if (i === 1) {
-            acc = {[acc]:formFields[acc].value}
-        } else acc = {...acc, [field]:formFields[field].value}
-        return acc
-    })
+    const simplifiedFormResult = Object.keys(formFields).reduce((acc,field) => {
+        acc[field] = formFields[field].value;
+        return acc;
+    },{});
 
     const encode = (data) => {
         return Object.keys(data)
