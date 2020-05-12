@@ -31,7 +31,7 @@ const Voyeur = ({data}) => {
       >
 
         <h2>Gallery</h2>
-        <Gallery images={folderImages} fullwidth={true} />
+        
       </Page>
     </Layout>
   )
