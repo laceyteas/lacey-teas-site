@@ -7,6 +7,8 @@ metaDescription: How to schedule a meeting with Lacey Teas
 postImage: ../img/leaf.JPG
 order: '5'
 ---
+**please note: my rates and hourly minimum have changed do to Covid-19 Right now I am scheduling appointments for June.**
+
 ## Local San Francisco Rates
 
 * 4 hours – $2,000
@@ -14,9 +16,9 @@ order: '5'
 * 8 hours – $3,000
 * Overnight – $4,000
 
-Due to Corona Virus I now have a four hour minimum for new clients and longer appointments will be my priority. As things change I will offer shorter appointments.  I am only seeing 1 client every 2 weeks and kindly request we have a short conversation a few days before our appointment to assess risk. Normally I have fee related to cancelations, but that is waived at this time and I don't want to to come see me because you are sick!
+Due to Corona Virus I now have a four hour minimum for new clients and longer appointments will be my priority. As things change I will offer shorter appointments.  I am only seeing 1 client every 2 weeks and kindly request we have a short conversation a few days before our appointment to assess risk. Normally I have a fee related to cancelations, but that is waived at this time as I don't want to to come see me if  you are sick! We are in uncertain times right now and I believe in harm reduction and clear communication.
 
-**Longer Experiences and Travel:** 
+**Longer Experiences and Travel:**
 
 Once we get to know each other, I am open to overnight stays and longer experiences and the possibly of travel — an entire day together at the amusement park, an adventure to cabin in the woods, or even to be your companion on a trip abroad! If these sorts of experiences interest you we can discuss what the proper compensation would be at that time, and when travel restrictions lift.
 
