@@ -17,7 +17,7 @@ import Checkbox from "../Form/Checkbox/Checkbox";
 
 const DistanceReservationForm = (props) => {
 
-    const formName = 'reservation'
+    const formName = 'distanceReservation'
 
     const alertPopup = useAlert();
 
