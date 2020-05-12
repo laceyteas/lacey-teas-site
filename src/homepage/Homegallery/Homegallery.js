@@ -40,7 +40,7 @@ const Homegallery = (props, data) => {
     return (
         <Section title={markdownRemark.frontmatter.title} htmlcontent={markdownRemark.html} >
           <div className={styles.Content} dangerouslySetInnerHTML={{__html: props.htmlcontent}}/>
-          <Gallery images={folderImages} limit={3}/>
+          <Gallery images={folderImages} limit={3} innerStyle={{width:'100%'}}/>
         </Section>
     )
 }

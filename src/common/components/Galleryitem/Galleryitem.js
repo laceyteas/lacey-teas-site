@@ -12,8 +12,8 @@ const Image = ({image}) => {
     }
 }
 
-const Galleryitem = ({images, index}) => {
-    
+const Galleryitem = ({images, index, limit}) => {
+
     const galleryLength = images.length - 1;
     const [currentIndex, setIndex] = useState(index);
     const [currentImage, setImage] = useState(images[index]);
@@ -28,13 +28,15 @@ const Galleryitem = ({images, index}) => {
     const nextImage = () => {
         const nextIndex = (currentIndex === galleryLength) ? 0 : currentIndex + 1;
         setIndex(nextIndex);
-        setImage(images[nextIndex]);  
+        setImage(images[nextIndex]);
     }
+
+    const inlineStyle = (limit < 5 ) ? {flex: '1 1 25%'} : null;
 
     return (
         <Fragment>
-            <div className={clicked ? `${styles.Galleryitem} ${styles.Clicked}`: styles.Galleryitem} onClick={click} >
-                <div className={styles.Inner}>
+            <div className={clicked ? `${styles.Galleryitem} ${styles.Clicked}`: styles.Galleryitem} onClick={click} style={inlineStyle} >
+                <div className={styles.Inner} >
                     <Image image={images[index]}/>
                 </div>
             </div>

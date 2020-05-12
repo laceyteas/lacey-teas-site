@@ -4,9 +4,9 @@ import styles from './Inner.module.css';
 const Inner = (props) => {
 
     const style = props.fullwidth ? styles.Fullwidth : styles.Inner
-    
+
     return (
-        <div className={style}>
+        <div className={style} style={props.innerStyle}>
         {props.children}
     </div>
     )

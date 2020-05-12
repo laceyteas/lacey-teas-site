@@ -1,5 +1,5 @@
 @value variables: "../../styles/variables.css";
-@value _menuwidth from variables;
+@value _menuwidth, _mediumwidth from variables;
 
 .Mainnav {
     height: 100%;
@@ -41,7 +41,6 @@
     border-bottom: 1px solid #fff !important;
 }
 
-
 @media (min-width: _menuwidth) {
 
     .MainnavList {
@@ -55,7 +54,8 @@
 
     .Link, .Link:visited {
         font-size: 1.2rem;
-        margin: 0.9rem 0.7rem;
+        margin: 0.9rem 0.6rem;
+        letter-spacing: -.02rem;
     }
 
 }

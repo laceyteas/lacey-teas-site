@@ -29,13 +29,13 @@
     .Mainnav {
         padding: 10px;
         display: block;
-        flex: 1 1 65%;
+        flex: 1 1 70%;
         padding: 10px;
     }
     .Menubtn {
         display: none;
     }
     .Logo {
-        flex: 1 1 35%;
+        flex: 1 1 30%;
     }
 }

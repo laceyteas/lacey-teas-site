@@ -13,6 +13,7 @@
 
 /* Media query breaks */
 
+@value _mediumwidth: 760px;
 @value _menuwidth: 975px;
 @value _widescreen: 1200px;
 
