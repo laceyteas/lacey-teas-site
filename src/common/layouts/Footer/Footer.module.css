@@ -14,7 +14,7 @@
     padding: .5rem;
 }
 
-.Footer a {
+.Footer a, .Footer a:visited {
     color: var(--off-white);
     text-decoration: none;
     border-bottom: 1px solid transparent;
