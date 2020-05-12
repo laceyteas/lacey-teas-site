@@ -4,7 +4,7 @@ type: main-page
 name: remote
 slug: /remote
 metaDescription: options for remote interactions
-postImage: ../img/Lacey_Goddess_38.jpg
+postImage: ../img/Goddess_38.jpg
 order: '4'
 ---
 We are in strange times, and as much as I love connecting in the physical space it's obvious there is a need for digital connection and distance affairs.

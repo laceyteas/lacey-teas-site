@@ -4,7 +4,7 @@ type: main-page
 name: gallery
 slug: /gallery
 metaDescription: Gallery of images
-postImage: ../img/Lacey_Goddess_21.jpg
+postImage: ../img/Goddess_21.jpg
 order: '1'
 ---
 The bohemian value of passionate expression above all else inspires my style. Across my shapely torso and long legs, you might notice a carefully curated collection of tattoos. They each come with stories as unique as their form. I often exaggerate my hourglass figure by wearing corsets and encourage your exploration with an alluring silk robe.
