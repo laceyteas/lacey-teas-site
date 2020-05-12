@@ -16,13 +16,6 @@ const Homegallery = (props, data) => {
                 html
                 frontmatter {
                     title
-                    postImage {
-                        childImageSharp {
-                          fluid(maxHeight: 400, maxWidth: 400, cropFocus: CENTER) {
-                            ...GatsbyImageSharpFluid
-                          }
-                        } 
-                    }
                 }
             }
         }
