@@ -16,8 +16,8 @@ const Footer = (props) => {
             <div className={styles.Socialnav}>
                 <nav>
                     <ul>
-                        { twitter ? <li><a href={twitter}><FiTwitter /><span>florasparks</span></a> </li> : null }
-                        { instagram ? <li><a href={instagram}><FiInstagram/><span>florasparks</span></a> </li> : null }
+                        { twitter ? <li><a href={twitter}><FiTwitter /><span>florasparksxo</span></a> </li> : null }
+                        { instagram ? <li><a href={instagram}><FiInstagram/><span>florasparksxo</span></a> </li> : null }
                     </ul>
                 </nav>
             </div>
