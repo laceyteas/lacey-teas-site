@@ -36,7 +36,13 @@ export const query = graphql`
       html
       frontmatter {
         title
-        
+        postImage {
+          childImageSharp {
+            fluid(maxHeight: 1200, maxWidth: 1920, cropFocus: CENTER) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
       ...TinaRemark
     }
