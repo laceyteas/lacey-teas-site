@@ -7,7 +7,7 @@ metaDescription: How to schedule a meeting with Lacey Teas
 postImage: ../img/leaf.JPG
 order: '5'
 ---
-**please note: my rates and hourly minimum have changed do to Covid-19 Right now I am scheduling appointments for June.**
+**Please note: my rates and hourly minimum have changed do to Covid-19. Right now, I am prospectively scheduling appointments for June. This may change depending on safety guidance from SF Public Health**
 
 ## Local San Francisco Rates
 

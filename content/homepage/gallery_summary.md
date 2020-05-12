@@ -1,6 +1,6 @@
 ---
 type: copy
 name: homepage__gallery
-title: Voyeur
+title: Behind the Scenes
 ---
-To see more images visit my gallery page [Voyeur](/voyeur).
+I love get creative and pose for the camera lens. To see more images visit my gallery page [Behind the Scenes](/gallery).
