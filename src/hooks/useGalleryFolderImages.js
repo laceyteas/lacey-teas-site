@@ -19,7 +19,7 @@ const useGalleryFolderImages = () => {
                                     aspectRatio
                                     src
                                 }
-                                fixed(width: 300, height: 300, cropFocus: ATTENTION) {
+                                fixed(width: 300, height: 300) {
                                     ...GatsbyImageSharpFixed
                                 }
                             }
