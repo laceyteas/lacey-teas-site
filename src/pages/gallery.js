@@ -6,17 +6,11 @@ import Layout from '../common/layouts/Layout/Layout';
 import Page from '../common/layouts/Page/Page';
 import Seo from '../common/seo';
 import Gallery from '../common/components/Gallery/Gallery';
-import useGalleryFolderImages from '../hooks/useGalleryFolderImages';
+//import useGalleryFolderImages from '../hooks/useGalleryFolderImages';
 
 const Voyeur = ({data}) => {
   const img = data.markdownRemark.frontmatter.postImage ? data.markdownRemark.frontmatter.postImage.childImageSharp.fluid : null;
-  const folderImages = useGalleryFolderImages().map( ({node}) => {
-    return {
-      id: node.id,
-      fluid: node.childImageSharp.fluid,
-      fixed: node.childImageSharp.fixed
-    }
-  })
+  
 
 
   return (
