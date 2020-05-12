@@ -81,23 +81,6 @@ const DistanceReservationForm = (props) => {
             touched: false,
             error: false,
         },
-        screeningType: {
-            name: 'screeningType',
-            label: "What type of screening will you be providing?",
-            options: [
-                defaultSelectOption,
-                {value: "Employment/Identity Verification"},
-                {value: "Provider References"},
-                {value: "Combination of both"}
-            ],
-            value: defaultSelectOption.value,
-            validation: {
-                required: true,
-            },
-            valid: false,
-            touched: false,
-            error: false,
-        },
         screeningVerification: {
             name: 'screeningVerification',
             label: "Identity verification details",
@@ -269,11 +252,6 @@ const DistanceReservationForm = (props) => {
                     <Fieldset legend="Contact Info">
                         {fieldMaker(Input, {...formFields.email})}
                         {fieldMaker(Input, {...formFields.phone})}
-                    </Fieldset>
-                    <Fieldset legend="Screening Info / References">
-                        {fieldMaker(Input, {...formFields.screeningProfession})}
-                        {fieldMaker(Select, {...formFields.screeningType})}
-                        {fieldMaker(Textarea, {...formFields.screeningVerification})}
                     </Fieldset>
                     <Fieldset legend="Interests">
                         {fieldMaker(Select, {...formFields.typeOfConnection})}
