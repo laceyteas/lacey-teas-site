@@ -29,7 +29,7 @@ const Homegallery = (props, data) => {
         fixed: node.childImageSharp.fixed
       }
     })
- 
+
     return (
         <Section title={markdownRemark.frontmatter.title} htmlcontent={markdownRemark.html} >
           <div className={styles.Content} dangerouslySetInnerHTML={{__html: props.htmlcontent}}/>

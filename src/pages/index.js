@@ -23,7 +23,7 @@ const Index =  ({ data }) => {
         htmlcontent={data.markdownRemark.html}
       />
       <Howtomeet />
-      
+      <Homegallery />
 
     </Layout>
   )
