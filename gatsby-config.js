@@ -13,8 +13,8 @@ module.exports = {
     github: "", // YOUR GITHUB PROFILE HERE 
     pinterest: "", // YOUR PINTEREST PROFILE HERE
     facebook: "", // YOUR FACEBOOK PROFILE HERE
-    twitter: "https://twitter.com/florasparks", // YOUR TWITTER PROFILE HERE
-    instagram: "https://www.instagram.com/florasparks/",
+    twitter: "https://twitter.com/florasparksxo", // YOUR TWITTER PROFILE HERE
+    instagram: "https://www.instagram.com/florasparksxo/",
   },
   plugins: [
     'gatsby-plugin-sitemap',
