@@ -124,10 +124,6 @@ const Reservationform = (props) => {
             label: "Desired duration of our time together?",
             options: [
                 defaultSelectOption,
-                {value: "60 minutes (limited avialability)"},
-                {value: "90 minutes"},
-                {value: "2 hours"},
-                {value: "3 hours"},
                 {value: "4 hours"},
                 {value: "6 hours"},
                 {value: "day date"},
