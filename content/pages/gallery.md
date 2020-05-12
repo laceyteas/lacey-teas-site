@@ -1,8 +1,8 @@
 ---
 title: Behind the Scenes
 type: main-page
-name: voyeur
-slug: /voyeur
+name: gallery
+slug: /gallery
 metaDescription: Gallery of images
 postImage: ../img/Lacey_Goddess_21.jpg
 order: '1'

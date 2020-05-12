@@ -40,7 +40,7 @@ export default remarkForm(Voyeur)
 
 export const dataQuery = graphql`
   query {
-    markdownRemark(frontmatter: {name: {eq: "voyeur"}}) {
+    markdownRemark(frontmatter: {name: {eq: "gallery"}}) {
       html
       frontmatter {
         title

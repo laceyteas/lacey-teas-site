@@ -12,8 +12,8 @@ const Delights = ({data}) => {
     <Seo
       title={data.markdownRemark.frontmatter.title}
       description={data.markdownRemark.frontmatter.metaDescription} />
-    <Page 
-      title={data.markdownRemark.frontmatter.title} 
+    <Page
+      title={data.markdownRemark.frontmatter.title}
       img={img}
       htmlcontent={data.markdownRemark.html}
     />
@@ -31,7 +31,7 @@ export const dataQuery = graphql`
         metaDescription
         postImage {
           childImageSharp {
-            fluid(maxHeight: 720, maxWidth: 1920, cropFocus: CENTER) {
+            fluid(maxHeight: 720, maxWidth: 1920, cropFocus: ATTENTION) {
               ...GatsbyImageSharpFluid
             }
           }
