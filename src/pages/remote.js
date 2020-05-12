@@ -6,6 +6,8 @@ import Layout from '../common/layouts/Layout/Layout';
 import Page from '../common/layouts/Page/Page';
 import Seo from '../common/seo';
 
+import DistanceReservationForm from '../common/components/DistanceReservationForm/DistanceReservationForm'
+
 const Remote = ({data}) => {
   const img = data.markdownRemark.frontmatter.postImage ? data.markdownRemark.frontmatter.postImage.childImageSharp.fluid : null;
   return (
@@ -18,6 +20,7 @@ const Remote = ({data}) => {
       img={img}
       htmlcontent={data.markdownRemark.html}
     />
+    <DistanceReservationForm />
   </Layout>
 )}
 

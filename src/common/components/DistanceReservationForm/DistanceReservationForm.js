@@ -11,10 +11,11 @@ import Sectiontitle from '../../layouts/Section/Sectiontitle/Sectiontitle';
 import Select from '../Form/Select/Select'
 import Submit from '../Form/Submit/Submit';
 import Textarea from '../Form/Textarea/Textarea'
+import Checkbox from "../Form/Checkbox/Checkbox";
 
 //import styles from './Reservationform.module.css';
 
-const Reservationform = (props) => {
+const DistanceReservationForm = (props) => {
 
     const formName = 'reservation'
 
@@ -108,34 +109,16 @@ const Reservationform = (props) => {
             touched: false,
             error: false,
         },
-        meetingLocation: {
-            name: 'meetingLocation',
-            label: "When and where would you like to meet?",
-            value: '',
-            validation: {
-                required: true,
-            },
-            valid: false,
-            touched: false,
-            error: false,
-        },
-        meetingDuration: {
-            name: 'meetingDuration',
-            label: "Desired duration of our time together?",
+        typeOfConnection: {
+            name: 'typeOfConnection',
+            label: "What type of connection are you interested in?",
             options: [
-                defaultSelectOption,
-                {value: "60 minutes (limited avialability)"},
-                {value: "90 minutes"},
-                {value: "2 hours"},
-                {value: "3 hours"},
-                {value: "4 hours"},
-                {value: "6 hours"},
-                {value: "day date"},
-                {value: "overnight"},
-                {value: "staycation"},
-                {value: "travel/extended"},
+                {value: "Pen Pals"},
+                {value: "GFE Texting"},
+                {value: "Undivided Attention"},
+                {value: "Custom Content"},
             ],
-            value: defaultSelectOption.value,
+            value: '',
             validation: {
                 required: true,
             },
@@ -275,9 +258,9 @@ const Reservationform = (props) => {
     return (
         <Section>
             <div>
-                <Sectiontitle>Reservation Form</Sectiontitle>
+                <Sectiontitle>Make a Connection With Me</Sectiontitle>
                 <Form name={formName} action='/thanks' submit={submitHandler}>
-                    <input type="hidden" id="form-type" name="form-type" value="In Person Affair" />
+                    <input type="hidden" id="form-type" name="form-type" value="Distance Affair" />
                     <Fieldset legend="Full Legal Name" >
                         {fieldMaker(Input, {...formFields.firstName})}
                         {fieldMaker(Input, {...formFields.lastName})}
@@ -291,9 +274,8 @@ const Reservationform = (props) => {
                         {fieldMaker(Select, {...formFields.screeningType})}
                         {fieldMaker(Textarea, {...formFields.screeningVerification})}
                     </Fieldset>
-                    <Fieldset legend="Meeting Preferences">
-                        {fieldMaker(Textarea, {...formFields.meetingLocation})}
-                        {fieldMaker(Select, {...formFields.meetingDuration})}
+                    <Fieldset legend="Interests">
+                        {fieldMaker(Checkbox, {...formFields.typeOfConnection})}
                         {fieldMaker(Textarea, {...formFields.interests})}
                     </Fieldset>
                     <Fieldset legend="Parting Thoughts">
@@ -308,4 +290,4 @@ const Reservationform = (props) => {
     )
 };
 
-export default Reservationform;
+export default DistanceReservationForm;

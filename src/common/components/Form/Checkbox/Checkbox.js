@@ -5,7 +5,7 @@ import slugify from '../../../../util/slugify'
 
 import styles from './Checkbox.module.css';
 
-const Checkbox = ({label, checkboxArray, required}) => {
+const Checkbox = ({label, optionsArray, required}) => {
 
     const forRef = slugify(label)
 
@@ -13,7 +13,7 @@ const Checkbox = ({label, checkboxArray, required}) => {
         <div className={styles.CheckboxWrapper} >
             <Label label={label} forRef={forRef} required={required}/>
             <ul className={styles.CheckboxList}>
-                {checkboxArray.map((checkbox, index) => (
+                {optionsArray.map((checkbox, index) => (
                         <li className={styles.CheckboxItem}><input className={styles.Checkbox} name={forRef} type="checkbox" value={checkbox.value} />{checkbox.name ? checkbox.name : checkbox.value}</li>
                     ))}
             </ul>

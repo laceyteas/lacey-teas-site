@@ -1,3 +1,13 @@
+.CheckboxList {
+    list-style: none;
+    padding-left: 1rem;
+}
+.CheckboxItem {
+    margin: 0 0 .2rem;
+    font-size: 1.2rem;
+}
 .Checkbox {
-
+    margin-right: 0.5rem;
+    position: relative;
+    top: -3px;
 }
