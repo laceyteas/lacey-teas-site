@@ -111,8 +111,9 @@ const DistanceReservationForm = (props) => {
         },
         typeOfConnection: {
             name: 'typeOfConnection',
-            label: "What type of connection are you interested in?",
+            label: "What type of connection are you most interested in?",
             options: [
+                defaultSelectOption,
                 {value: "Pen Pals"},
                 {value: "GFE Texting"},
                 {value: "Undivided Attention"},
@@ -275,7 +276,7 @@ const DistanceReservationForm = (props) => {
                         {fieldMaker(Textarea, {...formFields.screeningVerification})}
                     </Fieldset>
                     <Fieldset legend="Interests">
-                        {fieldMaker(Checkbox, {...formFields.typeOfConnection})}
+                        {fieldMaker(Select, {...formFields.typeOfConnection})}
                         {fieldMaker(Textarea, {...formFields.interests})}
                     </Fieldset>
                     <Fieldset legend="Parting Thoughts">

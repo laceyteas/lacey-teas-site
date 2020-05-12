@@ -9,6 +9,7 @@ const Checkbox = ({label, optionsArray, required}) => {
 
     const forRef = slugify(label)
 
+    //TODO: get this working. Need to put label next to checkbox and need to get onchange and blur working
     return (
         <div className={styles.CheckboxWrapper} >
             <Label label={label} forRef={forRef} required={required}/>
