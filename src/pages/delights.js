@@ -30,7 +30,13 @@ export const dataQuery = graphql`
       frontmatter {
         title
         metaDescription
-        
+        postImage {
+          childImageSharp {
+            fluid(maxHeight: 720, maxWidth: 1920, cropFocus: ATTENTION) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
       ...TinaRemark
     }
