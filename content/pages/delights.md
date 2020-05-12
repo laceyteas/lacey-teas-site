@@ -13,6 +13,8 @@ Building an experience from trust and acceptance are the cornerstones of our sha
 
 I have a wide variety of interests and I'm open to curating our experience together, or collaborating on something together. Perhaps some of my interests will inspire our date? Nothing brings me such joy as sipping tea while watching the sunset or catching a classic film at the Castro theatre. Tell me, what brings you pleasure? What brings you joy? What do you savor?
 
+Curious about what pleases me? Here is a list of themed activities I enjoy, some are one on one and some to be enjoyed after shelter in pla
+
 ## Cozy
 
 * The Roxy theatre for a film
