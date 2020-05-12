@@ -1,6 +1,8 @@
 import React from 'react';
-import styles from './Input.module.css';
+
 import Label from '../Label/Label'
+
+import styles from './Input.module.css';
 
 const Input = ({label, name, placeholder, maxlength, error, change, blur, value, type = 'type', required}) => {
 

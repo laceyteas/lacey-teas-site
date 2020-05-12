@@ -1,10 +1,7 @@
-@value variables: "../../styles/variables.css";
-@value _off_white, _body_text_color, _menuwidth, _widescreen from variables;
-
 .Imagepopup {
     position: fixed;
     z-index: 500;
-    background: _off_white;
+    background: var(--off-white);
     color: #fff;
     top: 50%;
     left: 50%;

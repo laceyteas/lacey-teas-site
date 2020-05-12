@@ -1,16 +1,18 @@
+import { navigate } from "gatsby"
+import { useAlert } from 'react-alert';
 import React, {useState} from 'react';
-import styles from './Reservationform.module.css';
-import Section from '../../layouts/Section/Section';
-import Form from '../Form/Form';
+
+import checkValidity from '../../../util/validation';
 import Fieldset from '../Form/Fieldset/Fieldset'
+import Form from '../Form/Form';
 import Input from '../Form/Input/Input'
-import Textarea from '../Form/Textarea/Textarea'
+import Section from '../../layouts/Section/Section';
+import Sectiontitle from '../../layouts/Section/Sectiontitle/Sectiontitle';
 import Select from '../Form/Select/Select'
 import Submit from '../Form/Submit/Submit';
-import Sectiontitle from '../../layouts/Section/Sectiontitle/Sectiontitle';
-import { useAlert } from 'react-alert';
-import checkValidity from '../../../util/validation';
-import { navigate } from "gatsby"
+import Textarea from '../Form/Textarea/Textarea'
+
+//import styles from './Reservationform.module.css';
 
 const Reservationform = (props) => {
 
@@ -274,7 +276,7 @@ const Reservationform = (props) => {
 
     return (
         <Section>
-            <div className={styles.Reservationform} >
+            <div>
                 <Sectiontitle>Reservation Form</Sectiontitle>
                 <Form name={formName} action='/thanks' submit={submitHandler}>
                     <Fieldset legend="Full Legal Name" >

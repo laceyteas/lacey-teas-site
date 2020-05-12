@@ -1,8 +1,10 @@
-import React from 'react';
-import styles from './Logo.module.css';
 import { Link } from 'gatsby';
+import React from 'react';
+
 import useSiteMetadata from '../../../hooks/useSiteMetadata';
+
 import logoImg from '../../../assets/Flora-Sparks---logo.png';
+import styles from './Logo.module.css';
 
 const Logo = () => {
     const { title } = useSiteMetadata()

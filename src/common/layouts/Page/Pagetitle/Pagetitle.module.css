@@ -1,5 +1,5 @@
 @value variables: "../../../styles/variables.css";
-@value _h1, _menuwidth from variables;
+@value _menuwidth from variables;
 
 .Pagetitle {
     color: #fff;

@@ -1,10 +1,7 @@
-@value variables: "../../styles/variables.css";
-@value _off_white, _body_text_color, _pink, _med_gray, _menuwidth from variables;
-
 .Button {
     border-radius: 4px;
-    background: _off_white;
-    color: _med_gray;
+    background: var(--off-white);
+    color: var(--med-gray);
     padding: .5rem 1rem;
     margin: 1rem;
     transition: all;

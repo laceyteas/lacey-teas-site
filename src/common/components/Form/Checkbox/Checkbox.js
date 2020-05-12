@@ -1,7 +1,9 @@
 import React from 'react';
-import styles from './Checkbox.module.css';
+
 import Label from '../Label/Label';
 import slugify from '../../../../util/slugify'
+
+import styles from './Checkbox.module.css';
 
 const Checkbox = ({label, checkboxArray, required}) => {
 

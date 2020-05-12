@@ -1,14 +1,16 @@
+import { transitions, positions, Provider as AlertProvider } from 'react-alert';
+import Helmet from 'react-helmet';
 import React, { Fragment } from 'react';
-import '../../styles/reset.css';
+
+import Agecheck from '../../components/Agecheck/Agecheck';
+import AlertTemplate from '../../components/AlertTemplate';
+import Footer from '../Footer/Footer';
+import Navbar from '../../components/Navbar/Navbar';
+
 import '../../styles/colors.css';
 import '../../styles/fonts.css';
+import '../../styles/reset.css';
 import styles from './Layout.module.css';
-import Helmet from 'react-helmet';
-import Navbar from '../../components/Navbar/Navbar';
-import Footer from '../Footer/Footer';
-import Agecheck from '../../components/Agecheck/Agecheck';
-import { transitions, positions, Provider as AlertProvider } from 'react-alert';
-import AlertTemplate from '../../components/AlertTemplate';
 
 const options = {
     position: positions.TOP_CENTER,

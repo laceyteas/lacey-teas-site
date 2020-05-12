@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './Form.module.css';
+//import styles from './Form.module.css';
 
 const Form = (props) => (
-    <form className={styles.Form} onSubmit={props.submit} name={props.name} method="POST" action={props.action} data-netlify="true" data-netlify-honeypot="bot-field">
+    <form onSubmit={props.submit} name={props.name} method="POST" action={props.action} data-netlify="true" data-netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value={props.name} />
         <input type="hidden" name="bot-field" />
         {props.children}

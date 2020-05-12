@@ -1,6 +1,7 @@
-import React from 'react';
-import styles from './Mainnav.module.css';
 import { Link, useStaticQuery, graphql } from 'gatsby';
+import React from 'react';
+
+import styles from './Mainnav.module.css';
 
 const Mainnav = ({includeHome}) => {
 

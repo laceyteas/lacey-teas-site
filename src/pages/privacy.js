@@ -1,10 +1,11 @@
-import React from 'react';
-import Layout from '../common/layouts/Layout/Layout';
-import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
-import Seo from '../common/seo';
-import Page from '../common/layouts/Page/Page';
 import { remarkForm } from 'gatsby-tinacms-remark';
+import Helmet from 'react-helmet';
+import React from 'react';
+
+import Layout from '../common/layouts/Layout/Layout';
+import Page from '../common/layouts/Page/Page';
+import Seo from '../common/seo';
 
 const Privacy = ({data}) => (
   <Layout>

@@ -1,8 +1,5 @@
-@value variables: "../../styles/variables.css";
-@value _off_white from variables;
-
 .Body {
-    background-color: _off_white;
+    background-color:var(--off-white);
     margin: 0;
     padding: 0;
     font-family: 'Quicksand', sans-serif;

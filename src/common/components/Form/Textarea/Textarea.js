@@ -1,6 +1,8 @@
 import React from 'react';
-import styles from './Textarea.module.css';
+
 import Label from '../Label/Label';
+
+import styles from './Textarea.module.css';
 
 const Textarea = ({label, required, error, name, value, change, blur}) => {
 

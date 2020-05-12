@@ -1,7 +1,8 @@
 import React from 'react';
+
 import Layout from '../common/layouts/Layout/Layout';
-import Seo from '../common/seo';
 import Page from '../common/layouts/Page/Page';
+import Seo from '../common/seo';
 
 export default () => (
   <Layout>

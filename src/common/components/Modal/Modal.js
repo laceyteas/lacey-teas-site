@@ -1,7 +1,9 @@
 import React, {Fragment, useState} from 'react';
-import styles from './Modal.module.css';
+
 import Backdrop from '../Backdrop/Backdrop';
 import Button from '../Button/Button'
+
+import styles from './Modal.module.css';
 
 const Modal = (props) => {
 

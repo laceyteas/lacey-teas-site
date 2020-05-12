@@ -1,7 +1,9 @@
-import React, {useState, Fragment} from 'react';
-import styles from './Galleryitem.module.css';
-import Imagepopup from '../Imagepopup/Imagepopup';
 import Img from 'gatsby-image';
+import React, {useState, Fragment} from 'react';
+
+import Imagepopup from '../Imagepopup/Imagepopup';
+
+import styles from './Galleryitem.module.css';
 
 const Image = ({image}) => {
 

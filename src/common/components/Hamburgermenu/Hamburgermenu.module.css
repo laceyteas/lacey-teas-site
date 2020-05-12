@@ -1,6 +1,3 @@
-@value variables: "../../styles/variables.css";
-@value _off_white, _body_text_color, _pink, _med_gray, _menuwidth from variables;
-
 .Hamburgerbutton {
     font: inherit;
     display: inline-block;

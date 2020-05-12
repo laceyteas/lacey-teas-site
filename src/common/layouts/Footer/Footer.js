@@ -1,8 +1,10 @@
-import React from 'react';
-import styles from './Footer.module.css';
-import useSiteMetadata from '../../../hooks/useSiteMetadata'
-import { Link } from 'gatsby';
 import { FiInstagram, FiTwitter } from 'react-icons/fi';
+import { Link } from 'gatsby';
+import React from 'react';
+
+import useSiteMetadata from '../../../hooks/useSiteMetadata'
+
+import styles from './Footer.module.css';
 
 const Footer = (props) => {
 

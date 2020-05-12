@@ -1,6 +1,8 @@
 import React from 'react';
-import styles from './Select.module.css';
+
 import Label from '../Label/Label';
+
+import styles from './Select.module.css';
 
 const Select = ({optionsArray = [], label, required, error, change, blur, value, name}) => {
 

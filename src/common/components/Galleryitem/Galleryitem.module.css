@@ -1,5 +1,5 @@
 @value variables: "../../styles/variables.css";
-@value _off_white, _body_text_color, _mediumwidth, _menuwidth, _widescreen from variables;
+@value _mediumwidth, _menuwidth, _widescreen from variables;
 
 .Galleryitem {
     flex: 0 0 50%;

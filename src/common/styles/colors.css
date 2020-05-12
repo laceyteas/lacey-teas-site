@@ -8,4 +8,7 @@
     --navy-blue: #123070;
     --gold: rgb(255, 224, 121);
     --med-gold: rgb(231, 191, 59);
+    --innerwidth: 760px;
+    --menuwidth: 975px;
+    --widescreen: 1200px;
 }

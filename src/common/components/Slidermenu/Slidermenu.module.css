@@ -1,5 +1,5 @@
 @value variables: "../../styles/variables.css";
-@value _off_white, _body_text_color, _pink, _med_gray, _menuwidth from variables;
+@value _menuwidth from variables;
 
 .Slidermenu {
     position: fixed;
@@ -9,7 +9,7 @@
     left: 0;
     top: 0;
     z-index: 300;
-    background: _med_gray;
+    background: var(--med-gray);
     padding: 10px;
     transition: transform 0.3s ease-out;
 }

@@ -1,7 +1,9 @@
 import React from 'react';
-import styles from './Page.module.css';
-import Pagebanner from './Pagebanner/Pagebanner';
+
 import Inner from '../Inner/Inner';
+import Pagebanner from './Pagebanner/Pagebanner';
+
+import styles from './Page.module.css';
 
 const Page = (props) => (
     <article className={styles.Page} >

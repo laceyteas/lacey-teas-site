@@ -16,9 +16,3 @@
 @value _mediumwidth: 760px;
 @value _menuwidth: 975px;
 @value _widescreen: 1200px;
-
-:root {
-    --innerwidth: 760px;
-    --menuwidth: 975px;
-    --widescreen: 1200px;
-}

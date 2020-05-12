@@ -1,9 +1,11 @@
 import React, { Fragment, useState } from 'react';
-import styles from './Navbar.module.css';
+
+import Hamburgermenu from '../Hamburgermenu/Hamburgermenu'
 import Logo from '../Logo/Logo';
 import Mainnav from '../Mainnav/Mainnav';
 import Slidermenu from '../Slidermenu/Slidermenu';
-import Hamburgermenu from '../Hamburgermenu/Hamburgermenu'
+
+import styles from './Navbar.module.css';
 
 const Navbar = () => {
 

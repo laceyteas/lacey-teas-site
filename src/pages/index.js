@@ -1,11 +1,12 @@
-import React from "react"
-import Layout from '../common/layouts/Layout/Layout';
 import { graphql } from 'gatsby';
-import Seo from '../common/seo';
-import Howtomeet from '../homepage/Howtomeet/Howtomeet';
-import Homegallery from '../homepage/Homegallery/Homegallery'
-import Page from "../common/layouts/Page/Page";
 import { remarkForm } from 'gatsby-tinacms-remark';
+import React from "react"
+
+import Layout from '../common/layouts/Layout/Layout';
+import Page from "../common/layouts/Page/Page";
+import Seo from '../common/seo';
+import Homegallery from '../homepage/Homegallery/Homegallery'
+import Howtomeet from '../homepage/Howtomeet/Howtomeet';
 
 const Index =  ({ data }) => {
 
@@ -40,7 +41,7 @@ export const query = graphql`
             fluid(maxHeight: 1200, maxWidth: 1920, cropFocus: CENTER) {
               ...GatsbyImageSharpFluid
             }
-          } 
+          }
         }
       }
       ...TinaRemark

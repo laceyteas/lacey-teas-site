@@ -1,8 +1,10 @@
+import Img from 'gatsby-image';
 import React, {Fragment} from 'react';
 import window from 'global'
-import styles from './Imagepopup.module.css';
+
 import Backdrop from '../Backdrop/Backdrop';
-import Img from 'gatsby-image';
+
+import styles from './Imagepopup.module.css';
 
 const Imagepopup = ({show, image, next, close}) => {
 

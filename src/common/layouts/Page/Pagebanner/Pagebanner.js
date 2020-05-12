@@ -1,7 +1,9 @@
-import React from 'react';
-import styles from './Pagebanner.module.css';
 import Img from 'gatsby-image';
+import React from 'react';
+
 import Pagetitle from '../Pagetitle/Pagetitle'
+
+import styles from './Pagebanner.module.css';
 
 const Pagebanner = (props) => (
     <div className={styles.Pagebanner} >

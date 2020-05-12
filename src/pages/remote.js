@@ -1,9 +1,10 @@
-import React from 'react';
-import Layout from '../common/layouts/Layout/Layout';
 import { graphql } from 'gatsby';
-import Seo from '../common/seo';
-import Page from '../common/layouts/Page/Page';
 import { remarkForm } from 'gatsby-tinacms-remark';
+import React from 'react';
+
+import Layout from '../common/layouts/Layout/Layout';
+import Page from '../common/layouts/Page/Page';
+import Seo from '../common/seo';
 
 const Remote = ({data}) => {
   const img = data.markdownRemark.frontmatter.postImage ? data.markdownRemark.frontmatter.postImage.childImageSharp.fluid : null;

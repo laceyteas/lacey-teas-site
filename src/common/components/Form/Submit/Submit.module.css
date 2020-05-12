@@ -1,18 +1,15 @@
-@value variables: "../../../styles/variables.css";
-@value _off_white, _body_text_color, _pink, _deep_pink, _bright_pink, _light_pink ,_med_gray, _menuwidth from variables;
-
 .Submit {
     font-size: 1.8rem;
     padding: 5px 16px 7px;
     display: block;
     margin: 1rem;
     border-radius: 4px;
-    background: _deep_pink;
-    color: _off_white;
+    background: var(--deep-pink);
+    color: var(--off-white);
     cursor: pointer;
     transition: all .5s;
 }
 
 .Submit:hover {
-    background: _bright_pink;
+    background: var(--bright-pink);
 }

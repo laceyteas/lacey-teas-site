@@ -1,7 +1,9 @@
 import React, { Fragment } from 'react';
-import styles from './Slidermenu.module.css';
-import Mainnav from '../Mainnav/Mainnav';
+
 import Backdrop from '../Backdrop/Backdrop'
+import Mainnav from '../Mainnav/Mainnav';
+
+import styles from './Slidermenu.module.css';
 
 const slidermenu = (props) => (
     <Fragment>

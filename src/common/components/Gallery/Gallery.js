@@ -1,7 +1,9 @@
 import React from 'react';
-import styles from './Gallery.module.css';
-import Section from '../../layouts/Section/Section';
+
 import Galleryitem from '../Galleryitem/Galleryitem';
+import Section from '../../layouts/Section/Section';
+
+import styles from './Gallery.module.css';
 
 const Gallery = ({images, limit, fullwidth = false, innerStyle}) => {
 

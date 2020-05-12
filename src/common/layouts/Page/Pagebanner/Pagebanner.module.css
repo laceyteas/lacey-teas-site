@@ -1,9 +1,6 @@
-@value variables: "../../../styles/variables.css";
-@value _med_gray from variables;
-
 .Pagebanner {
     position: relative;
-    background: _med_gray;
+    background: var(--med-gray);
 }
 
 .NoBannerImage {
