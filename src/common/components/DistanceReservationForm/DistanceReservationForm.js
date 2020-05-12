@@ -70,28 +70,6 @@ const DistanceReservationForm = (props) => {
             touched: false,
             error: false,
         },
-        screeningProfession: {
-            name: 'screeningProfession',
-            label: "Profession",
-            value: '',
-            validation: {
-                required: true,
-            },
-            valid: false,
-            touched: false,
-            error: false,
-        },
-        screeningVerification: {
-            name: 'screeningVerification',
-            label: "Identity verification details",
-            value: '',
-            validation: {
-                required: true,
-            },
-            valid: false,
-            touched: false,
-            error: false,
-        },
         typeOfConnection: {
             name: 'typeOfConnection',
             label: "What type of connection are you most interested in?",
