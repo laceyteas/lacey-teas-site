@@ -12,7 +12,7 @@ import Select from '../Form/Select/Select'
 import Submit from '../Form/Submit/Submit';
 import Textarea from '../Form/Textarea/Textarea'
 
-//import styles from './Reservationform.module.css';
+import styles from './Reservationform.module.css';
 
 const Reservationform = (props) => {
 
@@ -21,6 +21,12 @@ const Reservationform = (props) => {
     const alertPopup = useAlert();
 
     const defaultSelectOption = {value: "-- select an option --", disabled: true}
+
+    const screeningTypes = [
+        {value: "Picture Id"},
+        {value: "Employment Verification"},
+        {value: "Provider References"}
+    ]
 
     const formFieldsDefault = {
         firstName: {
@@ -80,14 +86,13 @@ const Reservationform = (props) => {
             touched: false,
             error: false,
         },
-        screeningType: {
-            name: 'screeningType',
-            label: "What type of screening will you be providing?",
+        screeningCategory : {
+            name: 'screeningCategory',
+            label: "Type of screening information",
             options: [
                 defaultSelectOption,
-                {value: "Employment/Identity Verification"},
-                {value: "Provider References"},
-                {value: "Combination of both"}
+                {value:"Official Photo Id (drivers license, passport, etc.)"},
+                {value: "LinkedIn/Employment Verification and Provider References"}
             ],
             value: defaultSelectOption.value,
             validation: {
@@ -99,10 +104,10 @@ const Reservationform = (props) => {
         },
         screeningVerification: {
             name: 'screeningVerification',
-            label: "Identity verification details",
+            label: "Employment verification / LinkedIn profile and Provider References",
             value: '',
             validation: {
-                required: true,
+                required: false,
             },
             valid: false,
             touched: false,
@@ -122,16 +127,7 @@ const Reservationform = (props) => {
         meetingDuration: {
             name: 'meetingDuration',
             label: "Desired duration of our time together?",
-            options: [
-                defaultSelectOption,
-                {value: "4 hours"},
-                {value: "6 hours"},
-                {value: "day date"},
-                {value: "overnight"},
-                {value: "staycation"},
-                {value: "travel/extended"},
-            ],
-            value: defaultSelectOption.value,
+            value: '',
             validation: {
                 required: true,
             },
@@ -282,12 +278,19 @@ const Reservationform = (props) => {
                     </Fieldset>
                     <Fieldset legend="Screening Info / References">
                         {fieldMaker(Input, {...formFields.screeningProfession})}
-                        {fieldMaker(Select, {...formFields.screeningType})}
+                        {fieldMaker(Select, {...formFields.screeningCategory})}
+                        <div className={styles.details}>
+                            <p>If you selected Photo Id, take a photo of your id and send to my encrypted email address: <a href="mailto:florasparks@protonmail.com">florasparks@protonmail.com</a>.</p>
+                            <p>If you selected employment verification and provider references, please fill in your info below.</p>
+                        </div>
                         {fieldMaker(Textarea, {...formFields.screeningVerification})}
+                        <div className={styles.details}>
+                            <p>After our first session, I delete all private info.</p>
+                        </div>
                     </Fieldset>
                     <Fieldset legend="Meeting Preferences">
+                        {fieldMaker(Input, {...formFields.meetingDuration})}
                         {fieldMaker(Textarea, {...formFields.meetingLocation})}
-                        {fieldMaker(Select, {...formFields.meetingDuration})}
                         {fieldMaker(Textarea, {...formFields.interests})}
                     </Fieldset>
                     <Fieldset legend="Parting Thoughts">

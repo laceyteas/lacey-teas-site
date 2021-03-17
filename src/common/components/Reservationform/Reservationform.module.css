@@ -1,3 +1,19 @@
 .Reservationform {
 
 }
+
+.details {
+    font-size: 1rem;
+    background-color: var(--deep-pink);
+    border-radius: 4px;
+    padding: 0.4rem 0.8rem;
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.details  p {
+    margin: 0 0 0.2rem;
+}
+.details a {
+    color: #fff;
+}

@@ -3,6 +3,7 @@ import React from 'react';
 import slugify from '../../../../util/slugify'
 
 import styles from './Radiobuttons.module.css';
+import Label from '../Label/Label'
 
 const Radiobuttons = ({label, optionsArray, required}) => {
     const forRef = slugify(label)
