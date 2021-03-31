@@ -1,11 +1,11 @@
 ---
-title: How to meet me
 type: main-page
 name: meet
 slug: /meet
+title: How to meet me
 metaDescription: How to schedule a meeting with Flora Sparks
 postImage: ../img/leaf.JPG
-order: '5'
+order: "5"
 ---
 ## Deposits
 
@@ -13,19 +13,17 @@ As of March 2021 I require deposits for all new clients. Deposit will be 25% of 
 
 ## Local San Francisco Outcall Rates
 
-* 90 min – $750
-* 2 hours – $1,000
-* 3 hours – $1,500
-* 4 hours – $1,800
-* 6 hours – $2,500
-* 8 hours – $3,000
-* Overnight – $4,000
+* 1 hr – $460
+* Dinner Date (Clock free 4-6 hrs) – $1,500
+* Overnight – $2,500
 
 ## Incall
 
-Please add $200 to the outcall rates
+* 1 hr – $560
 
-## Safety
+For PSE or couples plese add $200/hr to my base rate. PSE is available only to established and trusted clients.
+
+* ## Safety
 
 Due to Corona Virus I now have a 90 minute minimum for new clients and longer appointments will be my priority. I am only seeing 1 client every 10 day and kindly request we have a short conversation a few days before our appointment to assess risk. If you are feeling sick please let me know and I will waive the cancellation fee. I am trusting you to be honest with me We are in uncertain times right now and I believe in harm reduction and clear communication.
 
