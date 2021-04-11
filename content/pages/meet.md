@@ -13,19 +13,19 @@ As of March 2021 I require deposits for all new clients. Deposit will be 25% of 
 
 ## Local San Francisco Outcall Rates
 
-* 1 hr – $460
-* Dinner Date (Clock free 4-6 hrs) – $1,500
+* 1 hr – $500
+* Dinner Date (Clock free 4-6 hrs) – $1,600
 * Overnight – $2,500
 
 ## Incall
 
-* 1 hr – $560
+* 1 hr – $600
 
-For PSE or couples plese add $200/hr to my base rate. PSE is available only to established and trusted clients.
+For PSE or couples plese add $200/hr to my base rate. PSE is available only to established and trusted clients. In session extensions are $400/hr 
 
 * ## Safety
 
-Due to Corona Virus I now have a 90 minute minimum for new clients and longer appointments will be my priority. I am only seeing 1 client every 10 day and kindly request we have a short conversation a few days before our appointment to assess risk. If you are feeling sick please let me know and I will waive the cancellation fee. I am trusting you to be honest with me We are in uncertain times right now and I believe in harm reduction and clear communication.
+If you have respiratory symtpoms please let me know and I will waive the cancellation fee. I am trusting you to be honest with me We are in uncertain times right now and I believe in harm reduction and clear communication.
 
 ### Longer Experiences and Travel:
 
