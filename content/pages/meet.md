@@ -14,14 +14,14 @@ As of March 2021 I require deposits for all new clients. Deposit will be 25% of 
 ## Local San Francisco Outcall Rates
 
 * 1 hr – $500
-* Dinner Date (Clock free 4-6 hrs) – $1,600
+* Dinner Date – $1,600
 * Overnight – $2,500
 
 ## Incall
 
 * 1 hr – $600
 
-For PSE or couples plese add $200/hr to my base rate. PSE is available only to established and trusted clients. In session extensions are $400/hr 
+For PSE or couples plese add $200/hr to my base rate. PSE is available only to established and trusted clients. In session extensions are $300/hr 
 
 * ## Safety
 
