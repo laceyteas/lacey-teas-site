@@ -1,11 +1,11 @@
 ---
-title: Distance Affairs
 type: main-page
 name: remote
 slug: /remote
+title: Distance Affairs
 metaDescription: options for remote interactions
 postImage: ../img/Goddess_38.jpg
-order: '4'
+order: "4"
 ---
 We are in strange times, and as much as I love connecting in the physical space it's obvious there is a need for digital connection and distance affairs.
 
@@ -13,7 +13,7 @@ This may not appeal at first, but trust me that intimacy and connection can be f
 
 ## My undivided attention rates
 
-For short and intense bursts of texting or a sexy phone call, including in the moment reciprocal erotic photo exchange.
+For short and intense bursts of texting or a sexy phone call, including in the moment reciprocal erotic photo exchange or even video chat.
 
 30 min/$100
 
