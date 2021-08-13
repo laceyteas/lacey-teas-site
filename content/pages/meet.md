@@ -9,17 +9,17 @@ order: "5"
 ---
 ## Deposits
 
-As of March 2021 I require deposits for all new clients. Deposit will be 25% of the session fee paid by Venmo or Cash App. Full deposit will be refunded in case of cancellation up to 48 hrs before the appointment. If canceled after this window your deposit will be kept as a cancellation fee.
+As of March 2021 I require deposits for all new clients. Deposit will be $50 by Apple Pay, Gift Card, Venmo or Cash App. Full deposit will be refunded in case of cancellation up to 48 hrs before the appointment. If canceled after this window your deposit will be kept as a cancellation fee.
 
-## Local San Francisco Outcall Rates
+## Bay Area Rates
 
-* 1 hr – $500
+* 1 hr – $600
+* 90 min – $800
+* 2 hr – $900
 * Dinner Date – $1,600
 * Overnight – $2,500
 
-## Incall
 
-* 1 hr – $600
 
 For PSE or couples plese add $200/hr to my base rate and any additional hours. PSE is available only to established and trusted clients. In session extensions are $300/hr 
 
