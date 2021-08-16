@@ -36,7 +36,7 @@ $1500/month
 
 Send me an erotic letter and I will respond!
 
-$75/letter & answer
+$100/letter & answer
 
 ## Custom Content
 
