@@ -19,11 +19,10 @@ For short and intense bursts of texting or a sexy phone call, including in the m
 
 ## GFE texting
 
-Seeking something a little sweeter, like a cuddle buddy over text? Consider my digital girlfriend packages.
+Seeking something a little sweeter, like a cuddle buddy over text? Consider my digital girlfriend packages. This include cheeky pictures from me, but nothing triple x.
 
 $100/day
 $500/week
-$1500/month
 
 **Terms**
 
@@ -31,6 +30,13 @@ $1500/month
 * I take breaks throughout the day to focus on movement, take walks and work so sometimes there may be delays in response but I am usually quite timely
 * You will receive updates on my life, my creative projects and of course cute selfies of me!
 * Texting available via telegram, whatsapp or sms
+
+## Tripe X GFE
+
+Maybe you want something spicier? I have a naughty side and I like to show it off! This is similar to GFE texting but I will entertain raunchy pictures from you & I will create at least 1 short custom video for you each day + naughty pictures as I see fit.
+
+$150/day\
+$750/week
 
 ## Pen Pals
 
