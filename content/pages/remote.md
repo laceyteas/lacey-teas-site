@@ -26,7 +26,7 @@ $500/week
 
 **Terms**
 
-* I will respond to texts from 8 am to 8 pm
+* I will respond to texts from 9 am to 9 pm
 * I take breaks throughout the day to focus on movement, take walks and work so sometimes there may be delays in response but I am usually quite timely
 * You will receive updates on my life, my creative projects and of course cute selfies of me!
 * Texting available via telegram, whatsapp or sms
@@ -37,6 +37,15 @@ Maybe you want something spicier? I have a naughty side and I like to show it of
 
 $200/day\
 $1000/week
+
+**Terms**
+
+* I will respond to texts from 8 am to 8 pm
+* I take breaks throughout the day to focus on movement, take walks and work so sometimes there may be delays in response but I am usually quite timely
+* You will receive updates on my life, my creative projects and of course cute selfies of me!
+* Texting available via telegram, whatsapp or sms
+
+
 
 ## Pen Pals
 
