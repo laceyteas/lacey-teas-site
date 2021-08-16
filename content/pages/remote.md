@@ -21,7 +21,7 @@ For short and intense bursts of texting or a sexy phone call, including in the m
 
 Seeking something a little sweeter, like a cuddle buddy over text? Consider my digital girlfriend packages. This include cheeky pictures from me, but nothing triple x.
 
-$100/day
+$100/day\
 $500/week
 
 **Terms**
