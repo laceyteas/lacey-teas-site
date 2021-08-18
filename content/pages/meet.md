@@ -21,9 +21,9 @@ As of March 2021 I require deposits for all new clients. Deposit will be $50 by 
 
 For PSE or couples plese add $200/hr to my base rate and any additional hours. PSE is available only to established and trusted clients. In session extensions are $300/hr 
 
-* ## Safety
+## Safety
 
-If you have respiratory symtpoms please let me know and I will waive the cancellation fee. I am trusting you to be honest with me We are in uncertain times right now and I believe in harm reduction and clear communication.
+If you have respiratory symtpoms please let me know and I will waive the cancellation fee. I am trusting you to be honest with me We are in uncertain times right now and I believe in harm reduction and clear communication. I am vaccinated as of 4/18.
 
 ### Longer Experiences and Travel:
 
@@ -37,4 +37,4 @@ Please also include when, where, and for how long you would like to meet. Client
 
 I love pre-bookings with at least 48 hours notice. I spend a great deal of time and effort getting ready for you, and appreciate your understanding and consideration of my time. I am disability friendly and accepting of all gender expressions, ages (21+) and races. I also welcome couples.
 
-Thoughtful, respectful and honest messages only please. Additional meeting etiquette will be clarified after your appointment is confirmed.
+Thoughtful, respectful and honest messages only please. Additional meeting etiquette will be clarified after your appointment is confirmed. I do not discriminate based on race, ethnicity, sexual orientation or physical ability! <3
