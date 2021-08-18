@@ -16,10 +16,8 @@ As of March 2021 I require deposits for all new clients. Deposit will be $50 by 
 * 1 hr – $600
 * 90 min – $800
 * 2 hr – $900
-* Dinner Date – $1,600
+* Dinner Date (clock free 4-6hrs) – $1,500
 * Overnight – $2,500
-
-
 
 For PSE or couples plese add $200/hr to my base rate and any additional hours. PSE is available only to established and trusted clients. In session extensions are $300/hr 
 
