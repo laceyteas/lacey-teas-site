@@ -9,14 +9,14 @@ order: "5"
 ---
 ## Deposits
 
-As of March 2021 I require deposits for all new clients. Deposit will be $50 by Apple Pay, Gift Card, Venmo or Cash App. Full deposit will be refunded in case of cancellation up to 48 hrs before the appointment. If canceled after this window your deposit will be kept as a cancellation fee.
+As of March 2021 I require deposits for all new clients. Deposit will be $50 by Apple Pay, Gift Card, Venmo or Cash App. Full deposit will be refunded in case of cancellation up to 48 hrs before the appointment. If canceled after this window your deposit will be kept as a cancellation fee. For FMTY dates I require a 50% deposit.
 
 ## Bay Area Rates
 
 * 1 hr – $600
 * 90 min – $800
 * 2 hr – $900
-* 3 hr – $1,110
+* 3 hr – $1,200
 * Dinner Date (clock free 4-6hrs) – $1,500
 * Overnight – $2,500
 
