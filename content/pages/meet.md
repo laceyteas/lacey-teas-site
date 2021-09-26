@@ -18,7 +18,8 @@ As of March 2021 I require deposits for all new clients. Deposit will be $50 by 
 * 2 hr – $900
 * 3 hr – $1,200
 * Dinner Date (clock free 4-6hrs) – $1,500
-* Overnight – $2,500
+* 8 hr - $2,000
+* Overnight (dinner - breakfast) – $2,500
 
 Inquire for times you don't see listed!
 
