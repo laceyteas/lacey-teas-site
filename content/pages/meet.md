@@ -9,7 +9,7 @@ order: "5"
 ---
 ## Deposits
 
-As of March 2021 I require deposits for all new clients. Deposit will be $50 by Apple Pay, Gift Card, Venmo or Cash App. Full deposit will be refunded in case of cancellation up to 48 hrs before the appointment. If canceled after this window your deposit will be kept as a cancellation fee. For FMTY dates I require a 50% deposit.
+As of March 2021 I require deposits for all new clients. Deposit will be $50 by Apple Pay, Gift Card, Venmo or Cash App. Full deposit will be refunded in case of cancellation up to 48 hrs before the appointment. If canceled after this window your deposit will be kept as a cancellation fee. For FMTY dates I require a deposit of 50% of the rate + airfare.
 
 ## Bay Area Rates
 
