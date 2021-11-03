@@ -11,6 +11,7 @@ import Sectiontitle from '../../layouts/Section/Sectiontitle/Sectiontitle';
 import Select from '../Form/Select/Select'
 import Submit from '../Form/Submit/Submit';
 import Textarea from '../Form/Textarea/Textarea'
+import Checkbox from '../Form/Checkbox/Checkbox'
 
 import styles from './Reservationform.module.css';
 
@@ -178,6 +179,18 @@ const Reservationform = (props) => {
             touched: false,
             error: false,
         },
+        deposit: {
+            name: 'deposit',
+            label: "I understand a $50 deposit is required to reserve our meeting",
+            value: 'I understand a $50 deposit is required to reserve our meeting',
+            validation: {
+                required: true,
+                isChecked: true,
+            },
+            valid: false,
+            touched: false,
+            error: false,
+        },
     }
 
     const [formFields, setFormFields] = useState(formFieldsDefault);
@@ -229,15 +242,17 @@ const Reservationform = (props) => {
     }
 
     const changeHandler = e => {
+        const validity = checkValidity(e,formFields[e.target.name].validation)
+        console.log('change',!validity)
         setFormFields({...formFields,
             [e.target.name]: {...formFields[e.target.name],
                 value: e.target.value,
-                valid: checkValidity(e.target.value,formFields[e.target.name].validation),
+                valid: validity,
                 touched: true
             } })
     }
     const blurHandler = e => {
-        const validity = checkValidity(e.target.value,formFields[e.target.name].validation)
+        const validity = checkValidity(e,formFields[e.target.name].validation)
         console.log('blur',!validity)
         setFormFields({...formFields,
             [e.target.name]: {...formFields[e.target.name],
@@ -296,6 +311,9 @@ const Reservationform = (props) => {
                     <Fieldset legend="Parting Thoughts">
                         {fieldMaker(Select, {...formFields.howYouFoundMe})}
                         {fieldMaker(Textarea, {...formFields.extras})}
+                    </Fieldset>
+                    <Fieldset legend="Deposit">
+                        {fieldMaker(Checkbox, {...formFields.deposit})}
                     </Fieldset>
                     <Submit title="Submit"/>
 

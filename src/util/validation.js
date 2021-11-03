@@ -1,4 +1,6 @@
-const checkValidity = (value, rules) => {
+const checkValidity = (element, rules) => {
+
+    const value = element.target.value
     let isValid = true;
     if (!rules) {
         return true;
@@ -29,6 +31,10 @@ const checkValidity = (value, rules) => {
     if (rules.isNumeric) {
         const pattern = /^\d+$/;
         isValid = pattern.test(value) && isValid
+    }
+
+    if (rules.isChecked) {
+        isValid = element.target.checked && isValid
     }
 
     return isValid;
