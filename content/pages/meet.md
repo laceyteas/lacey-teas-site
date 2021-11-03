@@ -1,11 +1,11 @@
 ---
+title: How to meet me
 type: main-page
 name: meet
 slug: /meet
-title: How to meet me
 metaDescription: How to schedule a meeting with Flora Sparks
 postImage: ../img/leaf.JPG
-order: "5"
+order: '5'
 ---
 ## Deposits
 
