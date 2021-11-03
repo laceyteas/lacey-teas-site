@@ -1,33 +1,47 @@
 ---
-title: How to meet me
 type: main-page
 name: meet
 slug: /meet
+title: How to meet me
 metaDescription: How to schedule a meeting with Flora Sparks
 postImage: ../img/leaf.JPG
-order: '5'
+order: "5"
 ---
 ## Deposits
 
-As of March 2021 I require deposits for all new clients. Deposit will be 25% of the session fee paid by Venmo or Cash App. Full deposit will be refunded in case of cancellation up to 48 hrs before the appointment. If canceled after this window your deposit will be kept as a cancellation fee.
+As of March 2021 I require deposits for all new clients. Deposit will be $50 by Apple Pay, Gift Card, Venmo or Cash App. Full deposit will be refunded in case of cancellation up to 48 hrs before the appointment. If canceled after this window your deposit will be kept as a cancellation fee. For FMTY dates I require a deposit of 50% of the rate + airfare.
 
-## Local San Francisco Outcall Rates
+## Bay Area Incall Rates
 
-* 90 min – $750
-* 2 hours – $1,000
-* 3 hours – $1,500
-* 4 hours – $1,800
-* 6 hours – $2,500
-* 8 hours – $3,000
-* Overnight – $4,000
+* 1 hr – $600
+* 90 min – $800
+* 2 hr – $900
+* 3 hr – $1,200
+* Dinner Date (clock free 4-6hrs) – $1,700 
+* 8 hr - $2,200
+* Overnight (dinner - breakfast) – $3,000
 
-## Incall
+## Bay Area Outcall Rates
 
-Please add $200 to the outcall rates
+For areas outside of Oakland I will change a travel fee based on my commute time. 
+
+* 1 hr – $500
+* 90 min – $700
+* 2 hr – $800
+* 3 hr – $1,100
+* Dinner Date (clock free 4-6hrs) – $1,500
+* 8 hr - $2,000
+* Overnight (dinner - breakfast) – $2,700
+
+
+
+Inquire for times you don't see listed!
+
+For PSE or couples plese add $200/hr to my base rate and any additional hours. PSE is available only to established and trusted clients. In session extensions are $300/hr 
 
 ## Safety
 
-Due to Corona Virus I now have a 90 minute minimum for new clients and longer appointments will be my priority. I am only seeing 1 client every 10 day and kindly request we have a short conversation a few days before our appointment to assess risk. If you are feeling sick please let me know and I will waive the cancellation fee. I am trusting you to be honest with me We are in uncertain times right now and I believe in harm reduction and clear communication.
+If you have respiratory symptoms please let me know and I will waive the cancellation fee. I am trusting you to be honest with me We are in uncertain times right now and I believe in harm reduction and clear communication. I am vaccinated as of 4/18.
 
 ### Longer Experiences and Travel:
 
@@ -37,8 +51,8 @@ Once we get to know each other, I am open to overnight stays and longer experien
 
 I ask that all first time clients submit their full name, phone number and email address, as well as references for verification purposes. References need to be either two provider references or one provider reference and employment verification. *I take your security seriously and will keep your information private.*
 
-Please also include when, where, and for how long you would like to meet. Clients will be expected to cover travel costs to outcall appointments over 45 minutes outside of the Bay Area. I am happy to host in-call appointments in Oakland and San Francisco for an additional fee of $200.
+Please also include when, where, and for how long you would like to meet. Clients will be expected to cover travel costs to outcall appointments over 45 minutes outside of the Bay Area. I am happy to host in-call appointments in Oakland and San Francisco.
 
 I love pre-bookings with at least 48 hours notice. I spend a great deal of time and effort getting ready for you, and appreciate your understanding and consideration of my time. I am disability friendly and accepting of all gender expressions, ages (21+) and races. I also welcome couples.
 
-Thoughtful, respectful and honest messages only please. Additional meeting etiquette will be clarified after your appointment is confirmed.
+Thoughtful, respectful and honest messages only please. Additional meeting etiquette will be clarified after your appointment is confirmed. I do not discriminate based on race, ethnicity, sexual orientation or physical ability! <3
