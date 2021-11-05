@@ -181,8 +181,8 @@ const Reservationform = (props) => {
         },
         deposit: {
             name: 'deposit',
-            label: "I understand a $50 deposit is required to reserve our meeting",
-            value: 'I understand a $50 deposit is required to reserve our meeting',
+            label: "I understand a deposit is required to reserve our meeting",
+            value: 'I understand a deposit is required to reserve our meeting',
             validation: {
                 required: true,
                 isChecked: true,
