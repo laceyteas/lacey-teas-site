@@ -9,11 +9,11 @@ order: "5"
 ---
 ## Deposits
 
-As of March 2021 I require deposits for all new clients. For local appointments less than 6 hours and touring appointments less than 3 hours, the deposit will be $50 by Apple Pay, Gift Card, Venmo or Cash App. 
+As of March 2021 I require deposits for all new clients. For local appointments less than 6 hours and touring appointments less than 3 hours, the deposit will be $50 by Apple Pay, Gift Card, Venmo or Cash App. 
 
-For local appointments longer than 6 hours, *FMTY or touring appointments longer than 4 hours I require a 50% deposit due to the more intricate planning process.
+For local appointments longer than 6 hours, *FMTY, touring appointments longer than 4 hours or appointments that include accomodations for specific fetish's I require a 50% deposit due to the more intricate planning process.
 
-Full deposit will be refunded in case of cancellation up to 48 hrs before the appointment. If canceled after this window your deposit will be kept as a cancellation fee. 
+Full deposit will be refunded in case of cancellation up to 48 hrs before the appointment. If canceled after this window your deposit will be kept as a cancellation fee. 
 
 \*For FMTY dates I require a deposit of 50% of the rate + airfare.
 
