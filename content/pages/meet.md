@@ -25,7 +25,7 @@ Full deposit will be refunded in case of cancellation up to 48 hrs before the ap
 * 3 hr – $1,200
 * Dinner Date (clock free 4-6hrs) – $1,700 
 * 8 hr - $2,200
-* Overnight (dinner - breakfast) – $3,000
+* Overnight (dinner - breakfast, must include meals & 7 hours of sleep) – $3,000
 
 ## Bay Area Outcall Rates
 
@@ -37,7 +37,7 @@ For areas outside of Oakland I will change a travel fee based on my commute time
 * 3 hr – $1,100
 * Dinner Date (clock free 4-6hrs) – $1,500
 * 8 hr - $2,000
-* Overnight (dinner - breakfast) – $2,700
+* Overnight (dinner - breakfast, must include meals & 7 hours of sleep) – $2,700
 
 Inquire for times you don't see listed!
 
