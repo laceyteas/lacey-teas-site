@@ -1,15 +1,21 @@
 ---
-title: How to meet me
 type: main-page
 name: meet
 slug: /meet
+title: How to meet me
 metaDescription: How to schedule a meeting with Flora Sparks
 postImage: ../img/leaf.JPG
-order: '5'
+order: "5"
 ---
 ## Deposits
 
-As of March 2021 I require deposits for all new clients. Deposit will be $50 by Apple Pay, Gift Card, Venmo or Cash App. Full deposit will be refunded in case of cancellation up to 48 hrs before the appointment. If canceled after this window your deposit will be kept as a cancellation fee. For FMTY dates I require a deposit of 50% of the rate + airfare.
+As of March 2021 I require deposits for all new clients. For local appointments less than 6 hours and touring appointments less than 3 hours, the deposit will be $50 by Apple Pay, Gift Card, Venmo or Cash App. 
+
+For local appointments longer than 6 hours, *FMTY or touring appointments longer than 4 hours I require a 50% deposit due to the more intricate planning process.
+
+Full deposit will be refunded in case of cancellation up to 48 hrs before the appointment. If canceled after this window your deposit will be kept as a cancellation fee. 
+
+\*For FMTY dates I require a deposit of 50% of the rate + airfare.
 
 ## Bay Area Incall Rates
 
@@ -32,8 +38,6 @@ For areas outside of Oakland I will change a travel fee based on my commute time
 * Dinner Date (clock free 4-6hrs) – $1,500
 * 8 hr - $2,000
 * Overnight (dinner - breakfast) – $2,700
-
-
 
 Inquire for times you don't see listed!
 
