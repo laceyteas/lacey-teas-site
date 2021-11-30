@@ -55,4 +55,4 @@ $100/letter & answer
 
 ## Custom Content
 
-I love to design and create content. Please reach out to me with your ideas. Custom content starts at $100/5 min but prices can change depending on complexity
+I love to design and create content. Please reach out to me with your ideas. Custom content is quoted on an individual basis, price dependent on complexity.
