@@ -5,8 +5,8 @@ import React from "react"
 import Layout from '../common/layouts/Layout/Layout';
 import Page from "../common/layouts/Page/Page";
 import Seo from '../common/seo';
-import Homegallery from '../homepage/Homegallery/Homegallery'
 import Howtomeet from '../homepage/Howtomeet/Howtomeet';
+import HomeSiteBadges from '../homepage/HomeSiteBadges/HomeSiteBadges'
 
 const Index =  ({ data }) => {
 
@@ -23,8 +23,7 @@ const Index =  ({ data }) => {
         htmlcontent={data.markdownRemark.html}
       />
       <Howtomeet />
-      <Homegallery />
-
+      <HomeSiteBadges />
     </Layout>
   )
 }
