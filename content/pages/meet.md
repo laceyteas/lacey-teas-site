@@ -19,25 +19,26 @@ Full deposit will be refunded in case of cancellation up to 48 hrs before the ap
 
 ## Bay Area Incall Rates
 
+I host at a private incall in Emeryville, these rates include my space rental fee.
+
 * 1 hr – $600
-* 90 min – $800
-* 2 hr – $900
-* 3 hr – $1,200
-* Dinner Date (clock free 4-6hrs) – $1,700 
-* 8 hr - $2,200
-* Overnight (dinner - breakfast, must include meals & 7 hours of sleep) – $3,000
+* 90 min – $900
+* 2 hr – $1,100
+* 3 hr – $1,600
+* 4 hr  – $2,000
 
 ## Bay Area Outcall Rates
 
 For areas outside of Oakland I will change a travel fee based on my commute time. 
 
 * 1 hr – $500
-* 90 min – $700
-* 2 hr – $800
-* 3 hr – $1,100
-* Dinner Date (clock free 4-6hrs) – $1,500
-* 8 hr - $2,000
-* Overnight (dinner - breakfast, must include meals & 7 hours of sleep) – $2,700
+* 90 min – $800
+* 2 hr – $1,000
+* 3 hr – $1,500
+* Dinner Date (clock free 4-6hrs) – $2,000
+* 8 hr - $2,500
+* Overnight (dinner - breakfast, must include meals & 7 hours of sleep) – $3,000
+* 24 hrs  – $4,000
 
 Inquire for times you don't see listed!
 
