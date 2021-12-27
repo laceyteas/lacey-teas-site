@@ -42,7 +42,7 @@ For areas outside of Oakland I will change a travel fee based on my commute time
 
 Inquire for times you don't see listed!
 
-For PSE or couples plese add $200/hr to my base rate and any additional hours. PSE is available only to established and trusted clients. In session extensions are $300/hr 
+For PSE or couples plese add $200/hr to my base rate and any additional hours. PSE is available only to established and trusted clients. In session extensions are $400/hr 
 
 ## Safety
 
