@@ -19,3 +19,7 @@ Bust: 34F\
 Shoes: size 9\
 Dress size: 10/12\
 Interests: gardening, clothing design, paper sculpture, contemplating what makes something beautiful
+
+
+
+Bay Area Curvy BDSM Companion
