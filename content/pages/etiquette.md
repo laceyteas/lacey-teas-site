@@ -3,7 +3,7 @@ type: main-page
 name: etiquette
 slug: /etiquette
 title: Etiquette
-metaDescription: Proper etiquette when entertaining Lacey Teas
+metaDescription: Proper etiquette when entertaining Flora
 postImage: ../img/nudepicnic.JPG
 order: "3"
 ---
