@@ -58,6 +58,8 @@ I ask that all first time clients submit their full name, phone number and email
 
 Please also include when, where, and for how long you would like to meet. Clients will be expected to cover travel costs to outcall appointments over 45 minutes outside of the Bay Area. I am happy to host in-call appointments in Oakland and San Francisco.
 
+I am a kink friendly and curvy companion. I love vanilla GFE session as much as BDSM, so reach out and we can make some magic.
+
 I love pre-bookings with at least 48 hours notice. I spend a great deal of time and effort getting ready for you, and appreciate your understanding and consideration of my time. I am disability friendly and accepting of all gender expressions, ages (21+) and races. I also welcome couples.
 
 Thoughtful, respectful and honest messages only please. Additional meeting etiquette will be clarified after your appointment is confirmed. I do not discriminate based on race, ethnicity, sexual orientation or physical ability! <3
