@@ -29,7 +29,7 @@ I host at a private incall in Emeryville, these rates include my space rental fe
 
 ## Bay Area Outcall Rates
 
-For areas outside of Oakland I will change a travel fee based on my commute time. 
+For areas outside of Oakland/SF I have a minimum booking time of 2-3 hours depending on distance.
 
 * 1 hr – $400
 * 90 min – $700
