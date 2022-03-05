@@ -33,7 +33,7 @@ $500/week
 
 ## Tripe X GFE
 
-Maybe you want something spicier? I have a naughty side and I like to show it off in pictures! This is similar to GFE texting but I will entertain raunchy pictures from you & I will create at least 1 short custom video for you each day or spend 30 minutes in video/phone chat. Racy pictures of me will be higher concept professional shots with my DSLR or spur of the moment pictures on my iphone.
+Maybe you want something spicier? I have a naughty side and I like to show it off in pictures! This is similar to GFE texting but I will entertain raunchy pictures from you & I will create at least 1 short custom video for you each day or spend 15 minutes in video/phone chat. Racy pictures of me will be higher concept professional shots with my DSLR or spur of the moment pictures on my iphone.
 
 $200/day\
 $1000/week
