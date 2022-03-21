@@ -31,7 +31,7 @@ I host at a private incall in Emeryville, these rates include my space rental fe
 
 For areas outside of Oakland/SF I have a minimum booking time of 2-3 hours depending on distance.
 
-* 1 hr – $400
+* 1 hr – $450
 * 90 min – $700
 * 2 hr – $900
 * 3 hr – $1,300
