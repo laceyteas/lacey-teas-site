@@ -28,7 +28,7 @@
     "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "^2.1.19",
     "global": "^4.3.2",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "react": "^16.8.6",
     "react-alert": "^5.5.0",
     "react-dom": "^16.8.6",
